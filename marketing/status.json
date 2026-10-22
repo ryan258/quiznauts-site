@@ -1,0 +1,56 @@
+{
+  "updated": "2026-10-22",
+  "mode": "local_launch_preparation",
+  "publication": "not_authorized_or_performed",
+  "next_action": "Run ./qn browser and complete local human review before account or publication decisions.",
+  "completed_locally": [
+    "Three-question website mission freshly authored with primary sources",
+    "Three initial field notes authored",
+    "Profile bios and channel About copy drafted with measured lengths",
+    "Twelve post drafts prepared; six tied to exact mission question IDs",
+    "Fourteen-slot proposed launch sequence prepared",
+    "Single-session reuse workflow and accessible publishing checklist prepared"
+  ],
+  "source_check": {
+    "date": "2026-10-22",
+    "record": "docs/editorial-sources.md",
+    "human_content_acceptance": "pending"
+  },
+  "properties": {
+    "channel_ownership": "unknown",
+    "channel_url": "",
+    "site_domain": "",
+    "secondary_platform": "not_selected",
+    "handles": "candidate_only_availability_and_ownership_unknown",
+    "upload_urls": [],
+    "public_launch_date": "not_selected"
+  },
+  "art": {
+    "inventory": "data/marketing.json",
+    "public_gallery": "/media/",
+    "state": "local_exported_assets_require_final_upload_crop_review",
+    "source_identity": "Quiznauts retro-library edition 1.4 Atomic Advertising",
+    "final_human_visual_acceptance": "pending"
+  },
+  "copy": {
+    "profiles": "draft",
+    "posts": "draft",
+    "post_count": 12,
+    "evergreen_post_count": 6,
+    "question_reveal_post_count": 6,
+    "working_line": "Come for the cow. Leave knowing more.",
+    "working_line_approval": "editorial_draft_not_registered_tagline_claim",
+    "schedule": "proposed_sequence_not_scheduled"
+  },
+  "owner_decisions_needed": [
+    "Confirm intended sign-in and existing channel to avoid a duplicate",
+    "Choose a verified available handle before saving a profile",
+    "Choose public domain and hosting only when publication is wanted",
+    "Select one optional secondary outlet",
+    "Review actual launch video and its exact destination",
+    "Complete human browser, keyboard, zoom, content and visual acceptance",
+    "Authorize each account change or publication when ready"
+  ],
+  "no_automation_or_external_changes": true,
+  "site_state_record": "docs/status.json"
+}
