@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none" role="img" aria-labelledby="qz-retro-frames-question-panel-title qz-retro-frames-question-panel-desc">
+  <title id="qz-retro-frames-question-panel-title">Mission control question panel</title>
+  <desc id="qz-retro-frames-question-panel-desc">A clean cream 1280 by 720 question canvas with teal outer rails, a blank header strip and small analog gauges outside the content safe area.</desc>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="9" y="9" width="1262" height="702" rx="34" fill="#123C3D" stroke-width="8"/>
+    <rect x="22" y="22" width="1236" height="676" rx="25" stroke="#E8B844" stroke-width="2"/>
+    <path d="M131 41h1018l-14 55H145Z" fill="#123C3D" stroke="#F3E7C8" stroke-width="3"/>
+    <rect id="qz-question-content-panel" x="119" y="113" width="1042" height="556" rx="28" fill="#F3E7C8" stroke-width="7"/>
+    <rect x="128" y="122" width="1024" height="538" rx="20" stroke="#E8B844" stroke-width="3"/>
+    <g><circle cx="66" cy="157" r="31" fill="#F3E7C8" stroke-width="3"/><path d="M43 164a23 23 0 0 1 46 0" stroke="#123C3D" stroke-width="2"/><path d="m66 164 12.4-20.2" stroke="#CF5935" stroke-width="4"/><circle cx="66" cy="164" r="4" fill="#CF5935" stroke="none"/></g>
+    <g><circle cx="1214" cy="157" r="31" fill="#F3E7C8" stroke-width="3"/><path d="M1191 164a23 23 0 0 1 46 0" stroke="#123C3D" stroke-width="2"/><path d="m1214 164 12.4-20.2" stroke="#CF5935" stroke-width="4"/><circle cx="1214" cy="164" r="4" fill="#CF5935" stroke="none"/></g>
+    <path d="M45 231h42m-42 9h42m-42 9h42M1193 231h42m-42 9h42m-42 9h42" stroke="#F3E7C8" stroke-width="3"/>
+    <rect x="52" y="320" width="28" height="146" rx="10" fill="#292822"/>
+    <path d="M66 334v115" stroke="#F3E7C8" stroke-width="6"/>
+    <rect x="49" y="377" width="34" height="18" rx="7" fill="#E8B844"/>
+    <rect x="1200" y="320" width="28" height="146" rx="10" fill="#292822"/>
+    <path d="M1214 334v115" stroke="#F3E7C8" stroke-width="6"/>
+    <rect x="1197" y="405" width="34" height="18" rx="7" fill="#E8B844"/>
+    <circle cx="66" cy="534" r="12" fill="#CF5935"/>
+    <circle cx="66" cy="571" r="8" fill="#E8B844"/>
+    <circle cx="1214" cy="534" r="12" fill="#E8B844"/>
+    <circle cx="1214" cy="571" r="8" fill="#CF5935"/>
+    <g><circle cx="49" cy="49" r="7" fill="#F3E7C8" stroke-width="2"/><path d="m46 52 6-6" stroke-width="2"/></g> <g><circle cx="1231" cy="49" r="7" fill="#F3E7C8" stroke-width="2"/><path d="m1228 52 6-6" stroke-width="2"/></g> <g><circle cx="49" cy="671" r="7" fill="#F3E7C8" stroke-width="2"/><path d="m46 674 6-6" stroke-width="2"/></g> <g><circle cx="1231" cy="671" r="7" fill="#F3E7C8" stroke-width="2"/><path d="m1228 674 6-6" stroke-width="2"/></g>
+  </g>
+</svg>

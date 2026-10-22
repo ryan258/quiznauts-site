@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" fill="none" role="img" aria-labelledby="qz-retro-badges-mission-patch-title qz-retro-badges-mission-patch-desc">
+  <title id="qz-retro-badges-mission-patch-title">Quiznauts mission patch</title>
+  <desc id="qz-retro-badges-mission-patch-desc">A round cream and teal space mission patch with a mustard orbit, central world and three discovery stars. The world hides the rear orbit and the front arc passes across its lower face.</desc>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="160" cy="160" r="150" fill="#123C3D" stroke-width="6"/>
+    <circle cx="160" cy="160" r="138" stroke="#E8B844" stroke-width="3"/>
+    <circle cx="160" cy="160" r="126" fill="#F3E7C8" stroke-width="5"/>
+    <path d="M58 217a118 118 0 0 0 204 0L160 251Z" fill="#123C3D" stroke="none"/>
+    <g id="qz-retro-badges-mission-patch-orbit-rear" transform="rotate(-30 161 157)">
+      <ellipse cx="161" cy="157" rx="108" ry="31" stroke-width="12"/>
+      <ellipse cx="161" cy="157" rx="108" ry="31" stroke="#E8B844" stroke-width="7"/>
+    </g>
+    <circle cx="161" cy="157" r="51" fill="#123C3D" stroke-width="5"/>
+    <path d="M137 139c6-11 15-18 28-19" stroke="#F3E7C8" stroke-width="7"/>
+    <g id="qz-retro-badges-mission-patch-orbit-front" transform="rotate(-30 161 157)">
+      <path d="M53 157A108 31 0 0 0 269 157" stroke-width="12"/>
+      <path d="M53 157A108 31 0 0 0 269 157" stroke="#E8B844" stroke-width="7"/>
+    </g>
+    <circle cx="247" cy="108" r="12" fill="#CF5935" stroke-width="4"/>
+    <path d="m93 91.8 3.3000000000000003 9.9 9.9 3.3000000000000003-9.9 3.3000000000000003-3.3000000000000003 9.9-3.3000000000000003-9.9-9.9-3.3000000000000003 9.9-3.3000000000000003Z" fill="#E8B844"/>
+    <path d="m203 55.4 2.4000000000000004 7.2 7.2 2.4000000000000004-7.2 2.4000000000000004-2.4000000000000004 7.2-2.4000000000000004-7.2-7.2-2.4000000000000004 7.2-2.4000000000000004Z" fill="#E8B844"/>
+    <path d="m208 222.6 2.0999999999999996 6.3 6.3 2.0999999999999996-6.3 2.0999999999999996-2.0999999999999996 6.3-2.0999999999999996-6.3-6.3-2.0999999999999996 6.3-2.0999999999999996Z" fill="#E8B844"/>
+  </g>
+</svg>

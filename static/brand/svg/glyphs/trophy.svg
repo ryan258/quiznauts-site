@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="qz-retro-glyphs-trophy-title qz-retro-glyphs-trophy-desc">
+  <title id="qz-retro-glyphs-trophy-title">Mission trophy · Cream-backed</title>
+  <desc id="qz-retro-glyphs-trophy-desc">A mustard cup with cream handles, a small teal star and a teal base. A rounded cream backplate supports placement on light or dark backgrounds.</desc>
+  <rect id="qz-retro-glyph-backplate-trophy" x="1.5" y="1.5" width="61" height="61" rx="7" fill="#F3E7C8" stroke="#292822" stroke-width="3"/>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 13H7v10c0 9 7 12 15 12m24-22h11v10c0 9-7 12-15 12" fill="#F3E7C8"/>
+    <path d="M18 9h28v18c0 10-7 16-14 16S18 37 18 27Z" fill="#E8B844"/>
+    <path d="M29 43h6v9h-6Z" fill="#CF5935"/>
+    <path d="M20 52h24v7H20Z" fill="#123C3D"/>
+    <path d="m32 18 2 6 6 1-5 4 1 6-4-3-5 3 1-6-5-4 7-1Z" fill="#123C3D" stroke-width="2"/>
+  </g>
+</svg>

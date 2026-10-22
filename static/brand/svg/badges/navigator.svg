@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" fill="none" role="img" aria-labelledby="qz-retro-badges-navigator-title qz-retro-badges-navigator-desc">
+  <title id="qz-retro-badges-navigator-title">Navigator rank patch</title>
+  <desc id="qz-retro-badges-navigator-desc">A rounded cream and teal diamond mission patch with a compass needle and two mustard route bars. The art contains no score threshold.</desc>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m160 14 140 146-140 146L20 160Z" fill="#123C3D" stroke-width="6"/>
+    <path d="m160 32 123 128-123 128L37 160Z" stroke="#E8B844"/>
+    <circle cx="160" cy="145" r="78" fill="#F3E7C8" stroke-width="5"/>
+    <circle cx="160" cy="145" r="63" stroke="#123C3D"/>
+    <path d="M160 82v12m63 51h-12m-51 63v-12m-63-51h12" stroke="#123C3D" stroke-width="4"/>
+    <path d="m193 112-18 48-48 18 18-48Z" fill="#E8B844" stroke-width="4"/>
+    <path d="m193 112-33 33-15-15ZM127 178l33-33 15 15Z" fill="#CF5935" stroke="none"/>
+    <circle cx="160" cy="145" r="7" fill="#123C3D"/>
+    <path d="M122 241h76m-61 16h46" stroke="#E8B844" stroke-width="8"/>
+  </g>
+</svg>

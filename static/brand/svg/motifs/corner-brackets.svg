@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none" role="img" aria-labelledby="qz-retro-motifs-corner-brackets-title qz-retro-motifs-corner-brackets-desc">
+  <title id="qz-retro-motifs-corner-brackets-title">Mission framing brackets</title>
+  <desc id="qz-retro-motifs-corner-brackets-desc">Four open teal instrument brackets with mustard registration marks, leaving the center transparent.</desc>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 90V20h90m420 0h90v70m0 220v70h-90m-420 0H20v-70" stroke="#123C3D" stroke-width="7"/>
+    <path d="M38 59V38h21m522 0h21v21m0 282v21h-21m-522 0H38v-21" stroke="#E8B844" stroke-width="4"/>
+    <path d="M320 14v12m0 348v12M14 200h12m588 0h12" stroke="#CF5935" stroke-width="4"/>
+  </g>
+</svg>

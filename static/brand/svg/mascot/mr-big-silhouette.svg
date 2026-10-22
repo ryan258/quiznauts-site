@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="mr-big-silhouette-title mr-big-silhouette-description">
+  <title id="mr-big-silhouette-title">Mr. Big · Solid silhouette</title>
+  <desc id="mr-big-silhouette-description">A single-color teal silhouette of the compact seated toy cow astronaut with an oversized bubble helmet, a raised round paw, and oval boots. The solid silhouette intentionally omits interior facial markings. Round hands and feet preserve the selected soft toy proportions. No humanoid fingers, long legs, backpack, or angular soles.</desc>
+  <g id="mr-big-silhouette-art" stroke="#123C3D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <g id="mr-big-silhouette-seated-body">
+      <path id="mr-big-silhouette-body" d="M367 637 C335 647 309 675 305 723 C301 770 311 826 341 852 C375 882 432 889 499 888 C569 890 626 880 658 849 C688 820 697 766 688 722 C681 679 655 648 624 637 C562 618 429 619 367 637Z" fill="#123C3D" />
+      <path id="mr-big-silhouette-suit-center-seam" d="M499 677 C497 730 501 788 498 845" fill="none" stroke="#123C3D" stroke-width="3" />
+      <path id="mr-big-silhouette-suit-left-fold" d="M359 812 C372 821 386 824 398 823" fill="none" stroke="#123C3D" stroke-width="3" />
+      <path id="mr-big-silhouette-suit-right-fold" d="M642 810 C631 820 616 824 603 823" fill="none" stroke="#123C3D" stroke-width="3" />
+      <circle id="mr-big-silhouette-mustard-chest-patch" cx="575" cy="733" r="55" fill="#123C3D" stroke="#123C3D" stroke-width="4" />
+      <g id="mr-big-silhouette-gold-q" fill="none" stroke="#123C3D" stroke-width="10">
+        <path id="mr-big-silhouette-q-bowl" d="M577 696 C552 696 537 710 538 730 C538 751 554 765 575 764 C597 764 610 749 609 730 C608 710 596 697 577 696Z" />
+        <path id="mr-big-silhouette-q-tail" d="M583 746 L608 768" />
+      </g>
+      <g id="mr-big-silhouette-round-boots" fill="#123C3D">
+        <path id="mr-big-silhouette-left-boot" d="M364 795 C321 790 283 812 276 849 C269 887 297 918 339 925 C382 932 427 914 438 878 C451 838 412 802 364 795Z" />
+        <path id="mr-big-silhouette-right-boot" d="M636 795 C679 790 717 812 724 849 C731 887 703 918 661 925 C618 932 573 914 562 878 C549 838 588 802 636 795Z" />
+        <path id="mr-big-silhouette-left-boot-toe" d="M299 844 C317 822 345 815 371 820 C400 825 418 844 416 866 C413 893 388 909 357 911" fill="none" stroke="#123C3D" stroke-width="4" />
+        <path id="mr-big-silhouette-right-boot-toe" d="M700 844 C682 822 654 815 628 820 C599 825 581 844 583 866 C586 893 611 909 642 911" fill="none" stroke="#123C3D" stroke-width="4" />
+        <path id="mr-big-silhouette-left-boot-highlight" d="M304 851 C312 840 325 834 336 833" fill="none" stroke="#123C3D" stroke-width="5" />
+        <path id="mr-big-silhouette-right-boot-highlight" d="M596 851 C603 840 614 835 625 833" fill="none" stroke="#123C3D" stroke-width="5" />
+      </g>
+    </g>
+    <g id="mr-big-silhouette-arm-left" data-pivot-x="347" data-pivot-y="690">
+      <path id="mr-big-silhouette-left-arm" d="M353 668 C324 660 297 674 279 698 C263 719 267 745 290 758 C315 772 340 759 354 740 C367 722 373 685 353 668Z" fill="#123C3D" />
+      <path id="mr-big-silhouette-left-mitten" d="M275 708 C248 708 230 729 233 755 C235 782 256 797 282 795 C308 793 328 777 327 752 C326 727 304 708 275 708Z" fill="#123C3D" />
+      <path id="mr-big-silhouette-left-mitten-highlight" d="M249 742 C252 731 261 725 270 725" fill="none" stroke="#123C3D" stroke-width="5" />
+    </g>
+    <g id="mr-big-silhouette-arm-right" data-pivot-x="652" data-pivot-y="690">
+      <path id="mr-big-silhouette-right-sleeve" d="M648 672 C683 660 724 646 765 623 L807 670 C765 707 719 739 678 739 C658 729 645 703 648 672Z" fill="#123C3D" stroke="#123C3D" stroke-width="5" />
+      <path id="mr-big-silhouette-right-mitten" d="M820 579 C850 580 871 601 868 630 C865 660 841 679 813 674 C784 670 769 646 773 619 C777 593 794 578 820 579Z" fill="#123C3D" stroke="#123C3D" stroke-width="5" />
+      <path id="mr-big-silhouette-right-mitten-highlight" d="M789 611 C794 599 805 595 816 596" fill="none" stroke="#123C3D" stroke-width="5" />
+    </g>
+    <g id="mr-big-silhouette-head-tilt" transform="rotate(-2 500 640)">
+      <g id="mr-big-silhouette-helmet-and-head" data-pivot-x="500" data-pivot-y="640">
+        <g id="mr-big-silhouette-helmet">
+          <path id="mr-big-silhouette-glass" d="M363 642 C265 599 206 511 202 399 C197 262 276 144 399 105 C500 72 613 95 693 159 C767 218 803 304 800 399 C797 505 738 598 637 642Z" fill="#123C3D" />
+          <path id="mr-big-silhouette-glass-left-highlight" d="M236 361 C236 285 272 215 323 173" fill="none" stroke="#123C3D" stroke-width="15" />
+          <path id="mr-big-silhouette-glass-right-highlight" d="M726 205 C738 220 749 237 756 253" fill="none" stroke="#123C3D" stroke-width="12" />
+          <path id="mr-big-silhouette-glass-small-highlight" d="M240 449 C245 469 252 486 260 501" fill="none" stroke="#123C3D" stroke-width="10" />
+        </g>
+        <g id="mr-big-silhouette-cow-head">
+          <g id="mr-big-silhouette-short-horn-nubs" fill="#123C3D" stroke-width="4">
+            <path id="mr-big-silhouette-left-horn" d="M359 245 C350 226 350 203 360 192 C369 181 384 187 391 200 C399 215 398 232 397 245Z" />
+            <path id="mr-big-silhouette-right-horn" d="M603 244 C603 226 604 204 614 194 C624 183 639 191 644 205 C650 220 645 236 640 246Z" />
+          </g>
+          <g id="mr-big-silhouette-black-outer-ears" fill="#123C3D" stroke-width="4">
+            <path id="mr-big-silhouette-left-ear" d="M323 269 C305 242 271 229 249 245 C230 258 239 287 255 307 C268 324 287 334 307 330Z" />
+            <path id="mr-big-silhouette-right-ear" d="M675 270 C696 242 741 228 762 246 C779 260 761 292 742 310 C723 328 702 336 687 329Z" />
+          </g>
+          <path id="mr-big-silhouette-right-inner-ear" d="M704 276 C718 259 742 251 749 256 C753 263 738 284 726 294 C716 303 706 307 698 307Z" fill="#123C3D" stroke="none" />
+          <path id="mr-big-silhouette-face" d="M308 331 C317 263 380 215 459 207 C542 198 620 214 667 258 C706 293 722 348 718 421 C714 487 689 550 636 590 C585 628 427 637 371 599 C316 561 286 498 285 432 C284 392 294 359 308 331Z" fill="#123C3D" />
+          <path id="mr-big-silhouette-temple-patch-anatomical-left" d="M584 211 C617 220 646 237 667 258 C701 291 718 336 719 389 C688 378 664 355 644 328 C618 294 597 258 584 211Z" fill="#123C3D" stroke="none" />
+          <g id="mr-big-silhouette-button-eyes" fill="#123C3D" stroke="none" data-expression="calm">
+            <ellipse id="mr-big-silhouette-left-eye" cx="410" cy="413" rx="16" ry="18" />
+            <ellipse id="mr-big-silhouette-right-eye" cx="591" cy="413" rx="16" ry="18" />
+            <circle id="mr-big-silhouette-left-eye-glint" cx="414" cy="407" r="4" fill="#123C3D" />
+            <circle id="mr-big-silhouette-right-eye-glint" cx="595" cy="407" r="4" fill="#123C3D" />
+          </g>
+          <path id="mr-big-silhouette-pink-muzzle" d="M500 435 C442 432 390 454 386 496 C381 539 431 572 493 574 C555 578 610 550 614 509 C618 469 564 438 500 435Z" fill="#123C3D" stroke="none" />
+          <path id="mr-big-silhouette-muzzle-top-highlight" d="M424 466 C442 454 461 450 479 450" fill="none" stroke="#123C3D" stroke-width="6" />
+          <g id="mr-big-silhouette-nostrils" fill="#123C3D" stroke="none">
+            <ellipse id="mr-big-silhouette-left-nostril" cx="450" cy="486" rx="5" ry="10" transform="rotate(-8 450 486)" />
+            <ellipse id="mr-big-silhouette-right-nostril" cx="551" cy="486" rx="5" ry="10" transform="rotate(8 551 486)" />
+          </g>
+          <path id="mr-big-silhouette-small-closed-smile" d="M477 528 C490 538 509 538 524 527" fill="none" stroke="#123C3D" stroke-width="5" />
+        </g>
+        <g id="mr-big-silhouette-single-helmet-collar">
+          <path id="mr-big-silhouette-pressure-seal" d="M356 621 C402 641 587 644 643 621 L642 647 C581 672 415 671 358 647Z" fill="#123C3D" />
+          <path id="mr-big-silhouette-collar-highlight" d="M376 642 C434 655 561 658 622 642" fill="none" stroke="#123C3D" stroke-width="4" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

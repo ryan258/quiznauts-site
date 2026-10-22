@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="qz-retro-glyphs-launch-title qz-retro-glyphs-launch-desc">
+  <title id="qz-retro-glyphs-launch-title">Launch vehicle · Cream-backed</title>
+  <desc id="qz-retro-glyphs-launch-desc">A cream rocket with a teal porthole, mustard fins and a simple orange exhaust flame. A rounded cream backplate supports placement on light or dark backgrounds.</desc>
+  <rect id="qz-retro-glyph-backplate-launch" x="1.5" y="1.5" width="61" height="61" rx="7" fill="#F3E7C8" stroke="#292822" stroke-width="3"/>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M23 35 11 43v11l15-6M41 35l12 8v11l-15-6" fill="#E8B844"/>
+    <path d="M26 49c-3 4-2 9 6 12 8-3 9-8 6-12" fill="#CF5935"/>
+    <path d="M22 45V26C22 15 32 5 32 5s10 10 10 21v19Z" fill="#F3E7C8"/>
+    <path d="M23 20h18" stroke="#292822"/>
+    <circle cx="32" cy="29" r="6" fill="#123C3D"/>
+    <path d="M22 43h20v7H22Z" fill="#123C3D"/>
+    <path d="M32 47v8" stroke="#E8B844"/>
+  </g>
+</svg>

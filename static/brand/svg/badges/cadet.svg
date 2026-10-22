@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" fill="none" role="img" aria-labelledby="qz-retro-badges-cadet-title qz-retro-badges-cadet-desc">
+  <title id="qz-retro-badges-cadet-title">Cadet rank patch</title>
+  <desc id="qz-retro-badges-cadet-desc">A rounded teal mission shield with one mustard star and a single cream chevron. The art contains no score threshold.</desc>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M49 26h222v139c0 67-49 108-111 131C98 273 49 232 49 165Z" fill="#123C3D" stroke-width="6"/>
+    <path d="M62 40h196v123c0 59-43 96-98 119-55-23-98-60-98-119Z" stroke="#E8B844"/>
+    <circle cx="160" cy="116" r="60" fill="#F3E7C8" stroke-width="5"/>
+    <path d="m160 68 12 32 34 3-26 23 8 34-28-18-28 18 8-34-26-23 34-3Z" fill="#E8B844" stroke-width="4"/>
+    <path d="m102 215 58-30 58 30v24l-58-30-58 30Z" fill="#F3E7C8" stroke-width="4"/>
+    <circle cx="160" cy="255" r="7" fill="#CF5935"/>
+  </g>
+</svg>

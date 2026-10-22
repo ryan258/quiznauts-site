@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" fill="none" role="img" aria-labelledby="qz-retro-motifs-starburst-title qz-retro-motifs-starburst-desc">
+  <title id="qz-retro-motifs-starburst-title">Atomic starburst motif</title>
+  <desc id="qz-retro-motifs-starburst-desc">A bold eight-point mustard burst for celebratory corners and reveal artwork.</desc>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m160 14 21 98 64-37-37 64 98 21-98 21 37 64-64-37-21 98-21-98-64 37 37-64-98-21 98-21-37-64 64 37Z" fill="#E8B844" stroke-width="5"/>
+    <path d="m160 75 11 74 74 11-74 11-11 74-11-74-74-11 74-11Z" fill="#CF5935" stroke="none"/>
+  </g>
+</svg>

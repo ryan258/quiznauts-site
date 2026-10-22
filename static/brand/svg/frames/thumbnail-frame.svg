@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none" role="img" aria-labelledby="qz-retro-frames-thumbnail-frame-title qz-retro-frames-thumbnail-frame-desc">
+  <title id="qz-retro-frames-thumbnail-frame-title">Retrofuture thumbnail frame</title>
+  <desc id="qz-retro-frames-thumbnail-frame-desc">A cream 1280 by 720 thumbnail canvas surrounded by a teal equipment bezel and restrained mustard corner marks. The central content safe area remains empty.</desc>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="9" y="9" width="1262" height="702" rx="35" fill="#123C3D" stroke-width="8"/>
+    <rect x="23" y="23" width="1234" height="674" rx="23" stroke="#E8B844" stroke-width="2"/>
+    <rect x="53" y="53" width="1174" height="614" rx="28" fill="#F3E7C8" stroke-width="6"/>
+    <path d="M80 108V80h73m974 0h73v28m0 504v28h-73m-974 0H80v-28" stroke="#E8B844" stroke-width="4"/>
+    <path d="M553 34h88m14 0h72" stroke="#F3E7C8" stroke-width="3"/>
+    <path d="M553 686h88m14 0h72" stroke="#F3E7C8" stroke-width="3"/>
+    <g><circle cx="38" cy="38" r="7" fill="#F3E7C8" stroke-width="2"/><path d="m35 41 6-6" stroke-width="2"/></g> <g><circle cx="1242" cy="38" r="7" fill="#F3E7C8" stroke-width="2"/><path d="m1239 41 6-6" stroke-width="2"/></g> <g><circle cx="38" cy="682" r="7" fill="#F3E7C8" stroke-width="2"/><path d="m35 685 6-6" stroke-width="2"/></g> <g><circle cx="1242" cy="682" r="7" fill="#F3E7C8" stroke-width="2"/><path d="m1239 685 6-6" stroke-width="2"/></g>
+  </g>
+</svg>

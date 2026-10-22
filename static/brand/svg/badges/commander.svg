@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" fill="none" role="img" aria-labelledby="qz-retro-badges-commander-title qz-retro-badges-commander-desc">
+  <title id="qz-retro-badges-commander-title">Commander rank patch</title>
+  <desc id="qz-retro-badges-commander-desc">A tall teal shield with a cream rocket, three mustard chevrons and two orange stars. The art contains no score threshold.</desc>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M160 14 282 54v109c0 67-53 110-122 142C91 273 38 230 38 163V54Z" fill="#123C3D" stroke-width="6"/>
+    <path d="m160 28 108 36v98c0 58-46 98-108 128-62-30-108-70-108-128V64Z" stroke="#E8B844"/>
+    <path d="m134 119-26 20v24l33-13m45-31 26 20v24l-33-13" fill="#E8B844" stroke-width="4"/>
+    <path d="M138 146V99c0-23 22-49 22-49s22 26 22 49v47Z" fill="#F3E7C8" stroke-width="4"/>
+    <path d="M139 91h42" stroke-width="4"/>
+    <circle cx="160" cy="108" r="12" fill="#123C3D" stroke-width="4"/>
+    <path d="M137 144h46v15h-46Z" fill="#E8B844" stroke-width="4"/>
+    <path d="m150 159 10 21 10-21" fill="#CF5935" stroke-width="4"/>
+    <path d="m109 209 51-25 51 25m-93 19 42-20 42 20m-74 18 32-16 32 16" stroke="#E8B844" stroke-width="10"/>
+    <path d="m91 84.4 2.4000000000000004 7.2 7.2 2.4000000000000004-7.2 2.4000000000000004-2.4000000000000004 7.2-2.4000000000000004-7.2-7.2-2.4000000000000004 7.2-2.4000000000000004Z" fill="#CF5935"/>
+    <path d="m229 84.4 2.4000000000000004 7.2 7.2 2.4000000000000004-7.2 2.4000000000000004-2.4000000000000004 7.2-2.4000000000000004-7.2-7.2-2.4000000000000004 7.2-2.4000000000000004Z" fill="#CF5935"/>
+  </g>
+</svg>

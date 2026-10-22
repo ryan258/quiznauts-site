@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="qz-retro-glyphs-telescope-title qz-retro-glyphs-telescope-desc">
+  <title id="qz-retro-glyphs-telescope-title">Observatory telescope · Cream-backed</title>
+  <desc id="qz-retro-glyphs-telescope-desc">A cream and teal telescope on a sturdy tripod, with a mustard objective ring. A rounded cream backplate supports placement on light or dark backgrounds.</desc>
+  <rect id="qz-retro-glyph-backplate-telescope" x="1.5" y="1.5" width="61" height="61" rx="7" fill="#F3E7C8" stroke="#292822" stroke-width="3"/>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m30 37-1 6m0 0L17 59m12-16 12 16m-12-16v16"/>
+    <path d="m10 29 31-17 9 17-31 17Z" fill="#F3E7C8"/>
+    <path d="m40 11 7-4 12 23-7 4Z" fill="#E8B844"/>
+    <path d="m9 29-4 2 6 12 5-3Z" fill="#123C3D"/>
+    <path d="m31 18 9 17" stroke="#123C3D"/>
+    <circle cx="29" cy="42" r="4" fill="#CF5935"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="qz-retro-glyphs-clipboard-title qz-retro-glyphs-clipboard-desc">
+  <title id="qz-retro-glyphs-clipboard-title">Mission clipboard · Cream-backed</title>
+  <desc id="qz-retro-glyphs-clipboard-desc">A cream mission board with a mustard clip and a teal orbital symbol that hides its rear ring. A rounded cream backplate supports placement on light or dark backgrounds.</desc>
+  <rect id="qz-retro-glyph-backplate-clipboard" x="1.5" y="1.5" width="61" height="61" rx="7" fill="#F3E7C8" stroke="#292822" stroke-width="3"/>
+  <g stroke="#292822" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="12" y="10" width="40" height="49" rx="5" fill="#CF5935"/>
+    <path d="M17 15h30v38H17Z" fill="#F3E7C8"/>
+    <path d="M26 6h12l3 9H23Z" fill="#E8B844"/>
+    <g id="qz-retro-glyphs-clipboard-orbit-rear" transform="rotate(-32 32 33)">
+      <ellipse cx="32" cy="33" rx="15" ry="5" stroke-width="4"/>
+      <ellipse cx="32" cy="33" rx="15" ry="5" stroke="#E8B844" stroke-width="2"/>
+    </g>
+    <circle cx="32" cy="33" r="8" fill="#123C3D"/>
+    <g id="qz-retro-glyphs-clipboard-orbit-front" transform="rotate(-32 32 33)">
+      <path d="M17 33A15 5 0 0 0 47 33" stroke-width="4"/>
+      <path d="M17 33A15 5 0 0 0 47 33" stroke="#E8B844" stroke-width="2"/>
+    </g>
+    <path d="M23 47h18" stroke="#123C3D"/>
+  </g>
+</svg>

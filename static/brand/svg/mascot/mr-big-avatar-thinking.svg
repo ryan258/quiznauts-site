@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="mr-big-avatar-thinking-title mr-big-avatar-thinking-description">
+  <title id="mr-big-avatar-thinking-title">Mr. Big · Thinking</title>
+  <desc id="mr-big-avatar-thinking-description">Mr. Big considers a question with a gentle head tilt and one round teal paw resting against the outside of the helmet near his muzzle. His large black temple patch stays on the viewer’s right and joins that black outer ear. The opposite ear is black; the forehead and fur around both dark button eyes are white.</desc>
+  <g id="mr-big-avatar-thinking-art" stroke="#292822" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <g id="mr-big-avatar-thinking-head-position" transform="translate(-175 15) scale(1.35)">
+      <g id="mr-big-avatar-thinking-head-tilt" transform="rotate(-4 500 640)">
+        <g id="mr-big-avatar-thinking-helmet-and-head" data-pivot-x="500" data-pivot-y="640">
+          <g id="mr-big-avatar-thinking-helmet">
+            <path id="mr-big-avatar-thinking-glass" d="M363 642 C265 599 206 511 202 399 C197 262 276 144 399 105 C500 72 613 95 693 159 C767 218 803 304 800 399 C797 505 738 598 637 642Z" fill="#F3E7C8" />
+            <path id="mr-big-avatar-thinking-glass-left-highlight" d="M236 361 C236 285 272 215 323 173" fill="none" stroke="#FFF9E9" stroke-width="15" />
+            <path id="mr-big-avatar-thinking-glass-right-highlight" d="M726 205 C738 220 749 237 756 253" fill="none" stroke="#FFF9E9" stroke-width="12" />
+            <path id="mr-big-avatar-thinking-glass-small-highlight" d="M240 449 C245 469 252 486 260 501" fill="none" stroke="#FFF9E9" stroke-width="10" />
+          </g>
+          <g id="mr-big-avatar-thinking-cow-head">
+            <g id="mr-big-avatar-thinking-short-horn-nubs" fill="#E7A797" stroke-width="4">
+              <path id="mr-big-avatar-thinking-left-horn" d="M359 245 C350 226 350 203 360 192 C369 181 384 187 391 200 C399 215 398 232 397 245Z" />
+              <path id="mr-big-avatar-thinking-right-horn" d="M603 244 C603 226 604 204 614 194 C624 183 639 191 644 205 C650 220 645 236 640 246Z" />
+            </g>
+            <g id="mr-big-avatar-thinking-black-outer-ears" fill="#292822" stroke-width="4">
+              <path id="mr-big-avatar-thinking-left-ear" d="M323 269 C305 242 271 229 249 245 C230 258 239 287 255 307 C268 324 287 334 307 330Z" />
+              <path id="mr-big-avatar-thinking-right-ear" d="M675 270 C696 242 741 228 762 246 C779 260 761 292 742 310 C723 328 702 336 687 329Z" />
+            </g>
+            <path id="mr-big-avatar-thinking-right-inner-ear" d="M704 276 C718 259 742 251 749 256 C753 263 738 284 726 294 C716 303 706 307 698 307Z" fill="#E7A797" stroke="none" />
+            <path id="mr-big-avatar-thinking-face" d="M308 331 C317 263 380 215 459 207 C542 198 620 214 667 258 C706 293 722 348 718 421 C714 487 689 550 636 590 C585 628 427 637 371 599 C316 561 286 498 285 432 C284 392 294 359 308 331Z" fill="#FFF9E9" />
+            <path id="mr-big-avatar-thinking-temple-patch-anatomical-left" d="M584 211 C617 220 646 237 667 258 C701 291 718 336 719 389 C688 378 664 355 644 328 C618 294 597 258 584 211Z" fill="#292822" stroke="none" />
+            <g id="mr-big-avatar-thinking-button-eyes" fill="#292822" stroke="none" data-expression="thinking">
+              <ellipse id="mr-big-avatar-thinking-left-eye" cx="404.0" cy="406" rx="16" ry="18" />
+              <ellipse id="mr-big-avatar-thinking-right-eye" cx="585.0" cy="406" rx="16" ry="18" />
+              <circle id="mr-big-avatar-thinking-left-eye-glint" cx="408.0" cy="400" r="4" fill="#FFF9E9" />
+              <circle id="mr-big-avatar-thinking-right-eye-glint" cx="589.0" cy="400" r="4" fill="#FFF9E9" />
+            </g>
+            <path id="mr-big-avatar-thinking-pink-muzzle" d="M500 435 C442 432 390 454 386 496 C381 539 431 572 493 574 C555 578 610 550 614 509 C618 469 564 438 500 435Z" fill="#E7A797" stroke="none" />
+            <path id="mr-big-avatar-thinking-muzzle-top-highlight" d="M424 466 C442 454 461 450 479 450" fill="none" stroke="#F4C7B9" stroke-width="6" />
+            <g id="mr-big-avatar-thinking-nostrils" fill="#A86755" stroke="none">
+              <ellipse id="mr-big-avatar-thinking-left-nostril" cx="450" cy="486" rx="5" ry="10" transform="rotate(-8 450 486)" />
+              <ellipse id="mr-big-avatar-thinking-right-nostril" cx="551" cy="486" rx="5" ry="10" transform="rotate(8 551 486)" />
+            </g>
+            <path id="mr-big-avatar-thinking-small-closed-smile" d="M480 529 C492 537 507 536 516 528" fill="none" stroke="#604A35" stroke-width="5" />
+          </g>
+          <g id="mr-big-avatar-thinking-single-helmet-collar">
+            <path id="mr-big-avatar-thinking-pressure-seal" d="M356 621 C402 641 587 644 643 621 L642 647 C581 672 415 671 358 647Z" fill="#123C3D" />
+            <path id="mr-big-avatar-thinking-collar-highlight" d="M376 642 C434 655 561 658 622 642" fill="none" stroke="#719E97" stroke-width="4" />
+          </g>
+        </g>
+      </g>
+      <g id="mr-big-avatar-thinking-arm-left" data-pivot-x="370" data-pivot-y="642">
+        <path id="mr-big-avatar-thinking-left-sleeve" d="M343 611 C346 630 354 645 370 651 L389 635 C376 623 366 610 363 593Z" fill="#FFF9E9" stroke="#292822" stroke-width="5" />
+        <path id="mr-big-avatar-thinking-left-mitten" d="M354 548 C383 550 402 571 399 598 C396 625 373 644 346 640 C318 637 301 615 305 587 C309 561 328 547 354 548Z" fill="#123C3D" stroke="#292822" stroke-width="5" />
+        <path id="mr-big-avatar-thinking-left-mitten-highlight" d="M321 580 C327 568 336 564 346 564" fill="none" stroke="#719E97" stroke-width="5" />
+      </g>
+    </g>
+  </g>
+</svg>
