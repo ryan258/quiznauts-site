@@ -1,0 +1,7 @@
+User-agent: *
+{{ if partial "public-site.html" . -}}
+Allow: /
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{ else -}}
+Disallow: /
+{{ end -}}

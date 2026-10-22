@@ -1,0 +1,242 @@
+// House look from the sibling's atomic player, adapted for flowing web pages.
+// Shape backgrounds are clipped independently; text and focus rings stay whole.
+.site-header a {
+  color: var(--white)
+}
+
+.site-header .button,.hero .button,.question-actions .button {
+  color: var(--navy);
+  background: var(--yellow);
+  border-color: var(--yellow);
+  box-shadow: 3px 4px 0 var(--blue)
+}
+
+.site-header .button:hover,.hero .button:hover,.question-actions .button:hover {
+  background: var(--white);
+  border-color: var(--white)
+}
+
+.hero-poster {
+  background: var(--night) url("../brand/player/bass/background.webp") center bottom / cover no-repeat;
+  color: var(--white);
+  border-block-end: 3px solid var(--yellow)
+}
+
+.hero {
+  padding-block-end: 5rem
+}
+
+.hero-copy {
+  position: relative
+}
+
+.hero h1 {
+  position: relative;
+  isolation: isolate;
+  color: var(--navy);
+  padding: 1.3rem 1.6rem 1.6rem;
+  max-inline-size: 12ch;
+  text-transform: uppercase
+}
+
+.hero h1:before,.hero h1:after,.question h2:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--paper);
+  clip-path: polygon(2% 2%,100% 0,98% 98%,0 100%)
+}
+
+.hero h1:after {
+  inset: .5rem -.25rem -.5rem .35rem;
+  z-index: -2;
+  background: var(--orange)
+}
+
+.hero .eyebrow,.hero-description,.hero-note {
+  // Solid ink under reading text keeps the starfield away from the letters.
+  background: var(--night);
+  padding: .35rem .6rem;
+  inline-size: fit-content
+}
+
+.hero .eyebrow,.hero .quiet,.hero .text-link {
+  color: var(--white)
+}
+
+.hero .text-link {
+  background: var(--night);
+  padding: .35rem .6rem;
+  border-radius: var(--radius-control)
+}
+
+.hero .signal-dot {
+  background: var(--yellow)
+}
+
+.hero-figure figcaption {
+  background: var(--paper);
+  color: var(--navy);
+  border: 2px solid var(--navy);
+  border-radius: var(--radius-control);
+  padding: .7rem 1rem;
+  box-shadow: 3px 4px 0 var(--orange)
+}
+
+.serif-word {
+  font-family: var(--display);
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -.025em
+}
+
+.topic-list {
+  border-block-start: 3px solid var(--navy)
+}
+
+.topic-row {
+  border-block-end: 2px solid var(--navy)
+}
+
+.topic-index {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  border-radius: var(--radius-round);
+  background: var(--yellow);
+  color: var(--navy);
+  font-family: var(--display);
+  font-style: normal;
+  font-weight: 800
+}
+
+.why-art:before {
+  border-radius: 0;
+  clip-path: polygon(50% 0,62% 23%,90% 8%,78% 37%,100% 51%,76% 63%,90% 96%,60% 80%,44% 100%,33% 77%,4% 90%,19% 59%,0 43%,28% 33%,18% 7%,41% 22%)
+}
+
+.note-card,.collection-item {
+  border-block-start-color: var(--blue)
+}
+
+.note-card {
+  border-block-start-width: 5px
+}
+
+.collection-item,.media-card {
+  border-radius: var(--radius-control);
+  box-shadow: 4px 5px 0 var(--paper-shade)
+}
+
+.page-head h1,.closing-section h2 {
+  font-family: var(--display);
+  text-transform: uppercase
+}
+
+.question {
+  background: var(--night);
+  color: var(--white);
+  border: 2px solid var(--navy);
+  border-block-start: 6px solid var(--yellow);
+  border-radius: var(--radius-control);
+  box-shadow: 5px 6px 0 var(--paper-shade)
+}
+
+.question>.eyebrow {
+  color: var(--yellow)
+}
+
+.question h2 {
+  position: relative;
+  isolation: isolate;
+  color: var(--navy);
+  padding: 1.1rem 1.3rem;
+  max-inline-size: none;
+  font-weight: 800
+}
+
+.answer-option {
+  color: var(--navy);
+  border-color: var(--paper);
+  box-shadow: 0 3px 0 rgba(0,0,0,.3)
+}
+
+.answer-option:has(input:checked) {
+  border-color: var(--yellow);
+  background: var(--white);
+  box-shadow: 0 0 0 2px var(--yellow)
+}
+
+.answer-option:has(input:focus-visible) {
+  outline-color: var(--yellow)
+}
+
+.answer-letter {
+  display: grid;
+  place-items: center;
+  inline-size: 2rem;
+  block-size: 2rem;
+  border: 2px solid var(--navy);
+  border-radius: var(--radius-round);
+  background: var(--yellow);
+  color: var(--navy);
+  font-family: var(--display);
+  font-size: 1rem
+}
+
+.answer-option:nth-of-type(4n + 2) .answer-letter {
+  background: var(--red-readable);
+  color: var(--white)
+}
+
+.answer-option:nth-of-type(4n + 3) .answer-letter {
+  background: var(--blue);
+  color: var(--white)
+}
+
+.answer-option:nth-of-type(4n + 4) .answer-letter {
+  background: var(--coin-orange);
+  color: var(--navy)
+}
+
+.answer-explanation {
+  background: var(--paper);
+  color: var(--navy);
+  border: 0;
+  border-radius: var(--radius-control);
+  padding-inline: 1rem
+}
+
+.answer-line {
+  color: var(--green-readable)
+}
+
+.quiz-finish {
+  border-radius: var(--radius-control);
+  box-shadow: 5px 6px 0 var(--navy)
+}
+
+@media print {
+  .hero-poster {
+    background: white;
+    color: black
+  }
+  .hero .eyebrow,.hero-description,.hero .quiet,.hero .text-link {
+    background: white;
+    color: black
+  }
+  .hero h1:before,.hero h1:after,.question h2:before {
+    display: none
+  }
+  .question {
+    background: white;
+    color: black;
+    box-shadow: none
+  }
+  .question>.eyebrow,.question h2,.answer-line,
+  .mission-strip .eyebrow,.mission-number,.why-copy>.eyebrow,
+  .promise-list li>span {
+    color: black
+  }
+}

@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="wordmark" href="{{ "" | relURL }}" aria-label="Quiznauts home"><img src="{{ "brand/player/bass/wordmark.webp" | relURL }}" width="2027" height="776" alt="Quiznauts"></a>
+    <nav aria-label="Main navigation"><ul class="nav-links">
+      {{ $page := . }}{{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}"{{ if $page.IsMenuCurrent "main" . }} aria-current="page"{{ else if $page.HasMenuCurrent "main" . }} aria-current="true"{{ end }}>{{ .Name }}</a></li>
+      {{ end }}
+    </ul></nav>
+    <a class="button button-small" href="{{ "missions/first-contact/" | relURL }}">Try a quiz <span aria-hidden="true">↗</span></a>
+  </div>
+</header>

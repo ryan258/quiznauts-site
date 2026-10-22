@@ -1,0 +1,23 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- $pages := .RegularPages -}}
+{{- $title := printf "%s · Quiznauts" .Title -}}
+{{- $link := .Permalink -}}
+{{- $description := .Description -}}
+{{- if .IsHome -}}
+  {{- $pages = where .Site.RegularPages "Section" "field-notes" -}}
+  {{- $title = "Quiznauts Field Notes" -}}
+  {{- $link = "field-notes/" | absURL -}}
+  {{- $description = "Small discoveries, thoughtful questions, and notes from the Quiznauts voyage." -}}
+{{- end -}}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ $title }}</title>
+    <link>{{ $link }}</link>
+    <description>{{ $description }}</description>
+    <language>{{ .Site.Language.Locale | default "en" }}</language>
+    {{ with .OutputFormats.Get "RSS" }}<atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml"/>{{ end }}
+    {{ range first 20 $pages.ByDate.Reverse }}
+    <item><title>{{ .Title }}</title><link>{{ .Permalink }}</link><guid>{{ .Permalink }}</guid><pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate><description>{{ .Description }}</description></item>
+    {{ end }}
+  </channel>
+</rss>

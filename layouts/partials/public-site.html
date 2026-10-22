@@ -1,0 +1,14 @@
+{{- /* Shared offline host policy; validity never establishes ownership. */ -}}
+{{- range hugo.Data.properties.platforms -}}
+  {{- if and .url (not (partial "public-url.html" (dict "URL" .url "Base" false))) -}}
+    {{- errorf "Invalid public destination for %s; use an HTTP(S) URL with a real public domain and no credentials" .id -}}
+  {{- end -}}
+{{- end -}}
+{{- if ne (printf "%T" .Site.Params.indexable) "bool" -}}
+  {{- errorf "params.indexable must be true or false" -}}
+{{- end -}}
+{{- $valid := partial "public-url.html" (dict "URL" .Site.BaseURL "Base" true) -}}
+{{- if and .Site.Params.indexable (not $valid) -}}
+  {{- errorf "Public indexing requires an HTTP(S) baseURL with a real public domain and no credentials, query or fragment" -}}
+{{- end -}}
+{{- return (and .Site.Params.indexable $valid) -}}

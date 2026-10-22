@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Locale | default "en" }}">
+<head>{{ partial "head.html" . }}</head>
+<body class="page-{{ if .IsHome }}home{{ else }}{{ .Type | urlize }}{{ end }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{ partial "header.html" . }}
+  <main id="main" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+  {{ partial "footer.html" . }}
+  {{ if eq .Type "mission" }}{{ with resources.Get "js/mission.js" | fingerprint "sha256" }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}{{ end }}
+</body>
+</html>

@@ -1,0 +1,7 @@
+{{- $identity := .Params.missionId | default "" -}}
+{{- $name := index hugo.Data.missions $identity | default "" -}}
+{{- $mission := index hugo.Data $name | default dict -}}
+{{- if or (not $identity) (not $name) (ne $mission.id $identity) (not $mission.questions) -}}
+  {{- errorf "Mission %s needs a valid missionId registered in data/missions.json with matching data.id and questions" .File.Path -}}
+{{- end -}}
+{{- return $mission -}}

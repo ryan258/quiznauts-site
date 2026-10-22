@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}Quiznauts — Come for the cow. Leave knowing more.{{ else }}{{ .Title }} · Quiznauts{{ end }}</title>
+<meta name="description" content="{{ .Description | default .Site.Params.description }}">
+{{ $public := partial "public-site.html" . }}
+{{ if not $public }}<meta name="robots" content="noindex, nofollow">{{ else }}<link rel="canonical" href="{{ .Permalink }}">{{ end }}
+<meta name="theme-color" content="#031522">
+<link rel="icon" href="{{ "brand/svg/marks/q-orbit.svg" | relURL }}" type="image/svg+xml">
+{{ with resources.Get "scss/site.scss" }}
+  {{ $options := dict "targetPath" "css/site.css" "transpiler" "libsass" "outputStyle" "compressed" }}
+  {{ with . | css.Sass $options | fingerprint "sha256" }}<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">{{ end }}
+{{ end }}
+{{ if $public }}
+<meta property="og:title" content="{{ if .IsHome }}Quiznauts — Come for the cow. Leave knowing more.{{ else }}{{ .Title }} · Quiznauts{{ end }}">
+<meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
+<meta property="og:type" content="{{ if and .IsPage (eq .Section "field-notes") }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ $image := .Params.ogImage | default .Site.Params.ogImage }}
+{{ $imagePath := printf "static/%s" (strings.TrimPrefix "/" $image) }}
+{{ if not (fileExists $imagePath) }}{{ errorf "Missing Open Graph image: %s" $image }}{{ end }}
+{{ $imageConfig := imageConfig $imagePath }}
+<meta property="og:image" content="{{ $image | strings.TrimPrefix "/" | absURL }}">
+<meta property="og:image:width" content="{{ $imageConfig.Width }}">
+<meta property="og:image:height" content="{{ $imageConfig.Height }}">
+<meta property="og:image:alt" content="{{ .Params.ogImageAlt | default .Site.Params.ogImageAlt }}">
+<meta name="twitter:card" content="summary_large_image">
+{{ end }}

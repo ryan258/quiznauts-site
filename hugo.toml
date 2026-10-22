@@ -1,0 +1,38 @@
+baseURL = "http://localhost:1313/"
+locale = "en-US"
+defaultContentLanguage = "en"
+title = "Quiznauts"
+timeZone = "America/Chicago"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+summaryLength = 28
+capitalizeListTitles = false
+
+[params]
+description = "Playful quiz missions for curious people. Meet Mr. Big, pick A, B, or C, and leave knowing something new."
+indexable = false
+ogImage = "/marketing/png/quiznauts-open-graph.png"
+ogImageAlt = "Quiznauts: Small cow. Big curiosity. Mr. Big welcomes you to play a quiz."
+mainSections = ["field-notes"]
+contactEmail = ""
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+page = ["HTML"]
+
+[markup.goldmark.renderer]
+unsafe = false
+
+[[menus.main]]
+name = "Missions"
+pageRef = "/missions"
+weight = 10
+[[menus.main]]
+name = "Field notes"
+pageRef = "/field-notes"
+weight = 20
+[[menus.main]]
+name = "Meet Mr. Big"
+pageRef = "/about"
+weight = 30

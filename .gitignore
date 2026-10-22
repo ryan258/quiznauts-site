@@ -1,0 +1,13 @@
+/public/
+/resources/
+/.hugo_build.lock
+/reports/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+# Browser evidence is already excluded under /reports/.
+# Original PNG artwork is a required, versionable build input.
+/backups/

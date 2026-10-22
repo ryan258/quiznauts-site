@@ -1,0 +1,46 @@
+// Current Quiznauts cut-paper player palette (../quiznauts/css/atomic.css).
+// Edit these source values once; site.scss exposes them as CSS custom properties.
+$brand-paper: #F3E6C8;
+$brand-white: #FBF3DE;
+$brand-navy: #071D2B;
+$brand-night: #031522;
+// Compatibility name for existing light-surface links and structural rules.
+$brand-teal: $brand-navy;
+$brand-ink: #071D2B;
+$brand-mustard: #EFB23F;
+$brand-vermilion: #DC4027;
+$brand-orange: #E2703A;
+$brand-blue: #2B5E9E;
+$brand-red-readable: #AE3020;
+$brand-green-readable: #2B6633;
+
+// Supporting neutrals keep text contrast and dividers predictable.
+$brand-muted: #4A5064;
+$brand-line: #B7AE97;
+$brand-line-on-dark: #8A9AA3;
+$brand-paper-shade: #E6D7B4;
+$brand-preview-paper: #E2D3B1;
+$brand-shadow: rgba($brand-ink, .08);
+
+// Local system font stacks: no font requests or setup.
+$font-body: "Avenir Next", Avenir, Arial, sans-serif;
+$font-display: "Avenir Next Condensed", Futura, "Arial Narrow", sans-serif;
+$font-editorial: Georgia, "Times New Roman", serif;
+$type-body: 1rem;
+$type-small: .875rem;
+
+// Shared layout, spacing, and shape tokens.
+$layout-width: 77rem;
+$gutter-min: 1.1rem;
+$gutter-fluid: 3vw;
+$gutter-max: 3.25rem;
+$space-1: .25rem;
+$space-2: .5rem;
+$space-3: .75rem;
+$space-4: 1rem;
+$space-6: 1.5rem;
+$space-8: 2rem;
+$control-min-height: 2.75rem;
+$radius-control: .75rem .5rem .8rem .55rem;
+$radius-choice: .9rem .6rem 1rem .7rem;
+$radius-round: 50%;

@@ -1,0 +1,10 @@
+{{- $url := urls.Parse .URL -}}
+{{- $policy := hugo.Data.url_policy -}}
+{{- $host := $url.Hostname | lower -}}
+{{- $port := $url.Port -}}
+{{- $validPort := or (not $port) (and (ge (int $port) 1) (le (int $port) 65535)) -}}
+{{- $valid := and (in $policy.schemes $url.Scheme) (le (len $host) 253) (gt (len (findRE $policy.host_pattern $host)) 0) (eq (len (findRE $policy.blocked_host_pattern $host)) 0) (not $url.User) $validPort (eq (len (findRE `[[:space:]]` .URL)) 0) -}}
+{{- if .Base -}}
+  {{- $valid = and $valid (not $url.RawQuery) (not $url.Fragment) -}}
+{{- end -}}
+{{- return $valid -}}
