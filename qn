@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+"""Short local commands for the Quiznauts Hugo site. No publishing actions."""
+from pathlib import Path
+import argparse
+import json
+import shutil
+import subprocess
+import sys
+
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from site_config import load_config
+from content_contract import content_errors, destination_errors, http_url_error, read_json
+
+
+def config():
+    return load_config(ROOT)
+
+
+def kit():
+    subprocess.run([sys.executable, str(ROOT / "scripts/package_kits.py")], check=True)
+
+
+def build():
+    problems = content_errors(ROOT)
+    cfg = config()
+    if not isinstance(cfg["params"].get("indexable"), bool):
+        problems.append("params.indexable must be true or false.")
+    if cfg["params"].get("indexable"):
+        problem = http_url_error(cfg["baseURL"], read_json(ROOT / "data/url_policy.json"), base=True)
+        if problem:
+            problems.append("Public base URL: " + problem)
+    if problems:
+        raise SystemExit("Fix local content/configuration:\n- " + "\n- ".join(problems))
+    kit()
+    binary = shutil.which("hugo")
+    if not binary:
+        raise SystemExit("Hugo is required. The initial project used Hugo 0.166.0 extended.")
+    result = subprocess.run([binary, "--source", str(ROOT), "--destination", str(ROOT / "public"),
+                             "--cleanDestinationDir", "--noBuildLock"], capture_output=True, text=True)
+    if result.returncode:
+        print(result.stdout + result.stderr, file=sys.stderr)
+        raise subprocess.CalledProcessError(result.returncode, result.args)
+    for line in (result.stdout + result.stderr).splitlines():
+        if line.startswith(("WARN", "ERROR")):
+            print(line, file=sys.stderr)
+
+
+def status():
+    cfg = config()
+    properties = json.loads((ROOT / "data/properties.json").read_text())["platforms"]
+    assets = json.loads((ROOT / "data/marketing.json").read_text())["assets"]
+    print(json.dumps({"project": "Quiznauts site", "preview": cfg["baseURL"],
+                      "indexable": cfg["params"]["indexable"], "marketing_exports": len(assets),
+                      "configured_profiles": [p["name"] for p in properties if p.get("url")],
+                      "start": "./qn", "stop": "Control-C", "check": "./qn check", "browser": "./qn browser",
+                      "handoff": "docs/handoff.md", "current_state": read_json(ROOT / "docs/status.json")}, indent=2))
+
+
+def readiness():
+    cfg = config()
+    properties = json.loads((ROOT / "data/properties.json").read_text())["platforms"]
+    policy = read_json(ROOT / "data/url_policy.json")
+    missing = destination_errors(properties, policy)
+    problem = http_url_error(cfg["baseURL"], policy, base=True)
+    if problem:
+        missing.append("Choose the real public base URL in hugo.toml: " + problem + ".")
+    if not any(p.get("id") == "youtube" and p.get("url") and not http_url_error(p["url"], policy) for p in properties if isinstance(p, dict)):
+        missing.append("Record the owner-verified YouTube channel URL in data/properties.json.")
+    if cfg["params"].get("indexable") is not True:
+        missing.append("After content and browser review, deliberately enable params.indexable for a public release.")
+    print(json.dumps({"configuration_complete": not missing, "remaining": missing,
+                      "owner_actions": "Account ownership, human acceptance and publication remain owner-controlled; no external checks are performed."}, indent=2))
+    return 1 if missing else 0
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("command", nargs="?", default="serve", choices=["serve", "build", "check", "browser", "kit", "images", "art", "backup", "status", "readiness"])
+    args = parser.parse_args()
+    if args.command == "status":
+        status()
+    elif args.command == "readiness":
+        return readiness()
+    elif args.command == "kit":
+        kit()
+    elif args.command == "images":
+        subprocess.run([sys.executable, str(ROOT / "scripts/optimize_images.py")], check=True)
+        kit()
+    elif args.command == "backup":
+        subprocess.run([sys.executable, str(ROOT / "scripts/backup_project.py")], check=True)
+    elif args.command == "art":
+        if sys.platform != "darwin" or not shutil.which("swift") or not shutil.which("cwebp"):
+            raise SystemExit("Artwork authoring needs macOS, Swift and cwebp; saved artwork still builds without them. See docs/visual-assets.md.")
+        subprocess.run([sys.executable, str(ROOT / "scripts/backup_project.py")], check=True)
+        subprocess.run([sys.executable, str(ROOT / "scripts/generate-art.py")], check=True)
+        subprocess.run([sys.executable, str(ROOT / "scripts/optimize_images.py")], check=True)
+        kit()
+    elif args.command == "browser":
+        # Explicit owner-invoked command only; check/build never launch a browser.
+        existing = ROOT.parent / "quiznauts" / "venv" / "bin" / "python"
+        interpreter = str(existing) if existing.is_file() else sys.executable
+        available = subprocess.run([interpreter, "-c", "import playwright.sync_api"], capture_output=True)
+        if available.returncode:
+            raise SystemExit("Browser checks need the existing Playwright environment. Restore ../quiznauts/venv or run this qn with a Python that already has Playwright. Nothing was installed or launched.")
+        subprocess.run([interpreter, str(ROOT / "scripts/check_browser.py")], cwd=ROOT, check=True)
+    elif args.command == "check":
+        build()
+        subprocess.run([sys.executable, str(ROOT / "scripts/check_site.py"), "--report", str(ROOT / "docs/verification/latest-local.json")], check=True)
+    elif args.command == "build":
+        build()
+        print("Built public/ for local review. No publishing performed.")
+    else:
+        if not (ROOT / "static/marketing/downloads/quiznauts-social-kit.zip").is_file():
+            kit()
+        binary = shutil.which("hugo")
+        if not binary:
+            raise SystemExit("Hugo is required. See README.md.")
+        print("Quiznauts preview: http://localhost:1313/ — Control-C stops it.", flush=True)
+        subprocess.run([binary, "server", "--source", str(ROOT), "--bind", "127.0.0.1", "--port", "1313", "--disableFastRender", "--noBuildLock"], check=True)
+    return 0
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except KeyboardInterrupt:
+        print("\nPreview stopped. Source work is saved.")
+        raise SystemExit(0)
+    except subprocess.CalledProcessError as exc:
+        raise SystemExit(exc.returncode)
+    except (OSError, ValueError, KeyError) as exc:
+        raise SystemExit("Local project error: " + str(exc))

@@ -1,0 +1,235 @@
+{
+  "encoding": "lossless WebP; exact RGBA; original backgrounds and alpha retained",
+  "encoder": "cwebp",
+  "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+  "options": [
+    "-lossless",
+    "-z",
+    "9",
+    "-exact",
+    "-metadata",
+    "none"
+  ],
+  "files": [
+    {
+      "source": "static/brand/png/mascot/mr-big-avatar-delighted.png",
+      "webp": "static/brand/webp/mascot/mr-big-avatar-delighted.webp",
+      "width": 1000,
+      "height": 1000,
+      "source_bytes": 117749,
+      "webp_bytes": 39842,
+      "source_sha256": "5dc9c2a1febf88816fa36130dc5f0aec82bf08952d28eacce05d1c8aebf14065",
+      "webp_sha256": "3e921d8c41f7a6de049d6e40f630372c3046c539536ab38e9e7eebf32261aa56"
+    },
+    {
+      "source": "static/brand/png/mascot/mr-big-avatar-surprised.png",
+      "webp": "static/brand/webp/mascot/mr-big-avatar-surprised.webp",
+      "width": 1000,
+      "height": 1000,
+      "source_bytes": 114580,
+      "webp_bytes": 38342,
+      "source_sha256": "498be23a3afe6b824f0e88acfd22462bd1c2e23733d0d72e583938f06cc7834b",
+      "webp_sha256": "31caeab4bc1624a85289f16737f4578dc7a1bfca7e9418addbbe84c0c7004820"
+    },
+    {
+      "source": "static/brand/png/mascot/mr-big-avatar-thinking.png",
+      "webp": "static/brand/webp/mascot/mr-big-avatar-thinking.webp",
+      "width": 1000,
+      "height": 1000,
+      "source_bytes": 117144,
+      "webp_bytes": 39992,
+      "source_sha256": "6efad2784ca3a743363136800b4085e431e300673d700285ccdcdd4c34dea7b6",
+      "webp_sha256": "ce0095a437788b428d32d60d29605e65a50aa5d59b76e4722896b8a44e272d70"
+    },
+    {
+      "source": "static/brand/png/mascot/mr-big-avatar.png",
+      "webp": "static/brand/webp/mascot/mr-big-avatar.webp",
+      "width": 1000,
+      "height": 1000,
+      "source_bytes": 114212,
+      "webp_bytes": 38466,
+      "source_sha256": "278b6b2fe650afcf6134525472175e107c72fc9dc28706b1deb853aa041a8cdc",
+      "webp_sha256": "43124b824a6b259ca49d49d2fa35302d84b78b9478dcdb6b9aa00e678ca3e0ac"
+    },
+    {
+      "source": "static/brand/png/mascot/mr-big-celebrating.png",
+      "webp": "static/brand/webp/mascot/mr-big-celebrating.webp",
+      "width": 1000,
+      "height": 1000,
+      "source_bytes": 142193,
+      "webp_bytes": 48992,
+      "source_sha256": "2979d826a9f5f17857f4e9667b719690e5b3b5e2252f010e8d19e0eb92ef1205",
+      "webp_sha256": "477f7d1a6384eb983051be7da8872663b113e1a050f6659d29e31f7e5d0fa3d0"
+    },
+    {
+      "source": "static/brand/png/mascot/mr-big-pointing.png",
+      "webp": "static/brand/webp/mascot/mr-big-pointing.webp",
+      "width": 1000,
+      "height": 1000,
+      "source_bytes": 138228,
+      "webp_bytes": 47376,
+      "source_sha256": "67609cb95ab6affb4d0eb43e08199760eca37f3bc1fbabcb3aa7d346fd4e8205",
+      "webp_sha256": "f382e59a59be17661b1503288d67aff3579b87d7d9e753e652c00cb890888e72"
+    },
+    {
+      "source": "static/brand/png/mascot/mr-big-silhouette.png",
+      "webp": "static/brand/webp/mascot/mr-big-silhouette.webp",
+      "width": 1000,
+      "height": 1000,
+      "source_bytes": 47643,
+      "webp_bytes": 8510,
+      "source_sha256": "9b486ad354db5aec6625ee3e2b427ac974064d46eb22cb0bcb693986c2bb2eeb",
+      "webp_sha256": "7b6d135dc84f4f606a2fa204bad3b4488334f876db80e07f717733beccc3b256"
+    },
+    {
+      "source": "static/brand/png/mascot/mr-big-welcome.png",
+      "webp": "static/brand/webp/mascot/mr-big-welcome.webp",
+      "width": 1000,
+      "height": 1000,
+      "source_bytes": 138615,
+      "webp_bytes": 48106,
+      "source_sha256": "3b617afd9744fc205555146485a93ffcd254aac6ebd33d09a84cbdcc197506c5",
+      "webp_sha256": "f4a3859bd5a4109d1bef7061afcde1d44a4774877831e05dd12bf05f2ad9db7c"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-avatar.png",
+      "webp": "static/marketing/webp/quiznauts-avatar.webp",
+      "width": 1024,
+      "height": 1024,
+      "source_bytes": 145386,
+      "webp_bytes": 46894,
+      "source_sha256": "e5a40c351ca266951ddd06b90365606842f5737f8c41227c5c8670c2a2da17bf",
+      "webp_sha256": "880d13fce2414e6e38da433de39910fcf6dfd09b03cb0015083341615db42534"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-brand-square.png",
+      "webp": "static/marketing/webp/quiznauts-brand-square.webp",
+      "width": 1080,
+      "height": 1080,
+      "source_bytes": 130407,
+      "webp_bytes": 42792,
+      "source_sha256": "bece4936de21ad2c867bf9a4f7bf5c1719fae862af4d6581f24db259497202bd",
+      "webp_sha256": "aa3c0afbf81eb6c94ac145db0f0c48f0761f27b66faa720287ba83d667820435"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-explanation-card.png",
+      "webp": "static/marketing/webp/quiznauts-explanation-card.webp",
+      "width": 1080,
+      "height": 1080,
+      "source_bytes": 121026,
+      "webp_bytes": 36114,
+      "source_sha256": "c03e2051e6cc14ad189f63e84a24784c137616d9dbdd51884a31e273a285b90c",
+      "webp_sha256": "ddc8d4d240dd1a6a5aa9f2e37f8094b077efbc05c443ed5d8f3c9abc7cbe2a02"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-facebook-cover.png",
+      "webp": "static/marketing/webp/quiznauts-facebook-cover.webp",
+      "width": 1640,
+      "height": 624,
+      "source_bytes": 99827,
+      "webp_bytes": 31524,
+      "source_sha256": "18e25dc5c702c1ad551d8ac0a3e293bc7d16191afc40ca91e1bc3d1be0a60c87",
+      "webp_sha256": "fd1334374d98e1d4d17ec299543a7cc0bdbeca5aab90c44f0e2cdb86774a6db2"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-feed-portrait.png",
+      "webp": "static/marketing/webp/quiznauts-feed-portrait.webp",
+      "width": 1080,
+      "height": 1350,
+      "source_bytes": 164724,
+      "webp_bytes": 53052,
+      "source_sha256": "b91828140c4e80c7ec449658f699304842f9e70a343d9a4c179d2a8078533a9e",
+      "webp_sha256": "fa6be1941f84235053690479c5529a247c86bd6a9a4dba8e0b1b57ae42a57ce9"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-open-graph.png",
+      "webp": "static/marketing/webp/quiznauts-open-graph.webp",
+      "width": 1200,
+      "height": 630,
+      "source_bytes": 126227,
+      "webp_bytes": 46020,
+      "source_sha256": "078d8c547c9181ab83d018493342e70a164124b2c7b04c7331c932169ff93ec7",
+      "webp_sha256": "49d9e534a2c1e70aba029eae8cbc9e94dccc18f9d530f248c3373e2accd17697"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-pinterest-poster.png",
+      "webp": "static/marketing/webp/quiznauts-pinterest-poster.webp",
+      "width": 1000,
+      "height": 1500,
+      "source_bytes": 170287,
+      "webp_bytes": 54382,
+      "source_sha256": "8c85c4a652e560a8cf8dfd43aea33933dfa4a0be4b5b054db8e8984f858cffb8",
+      "webp_sha256": "66a6d2705adf532ce0a2b855c5bcb545211bf66b178df8324a1cb84dbddd27ce"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-question-card.png",
+      "webp": "static/marketing/webp/quiznauts-question-card.webp",
+      "width": 1080,
+      "height": 1080,
+      "source_bytes": 111836,
+      "webp_bytes": 31718,
+      "source_sha256": "687f61b21dd2cc2b326684d4de3598ede72a38a0623ba659f06490aee19dca06",
+      "webp_sha256": "caa66f1f9208a253c1ee9cd1416d55abdb5c277e9779f7001ae8b242b1ce4805"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-vertical-invitation.png",
+      "webp": "static/marketing/webp/quiznauts-vertical-invitation.webp",
+      "width": 1080,
+      "height": 1920,
+      "source_bytes": 188376,
+      "webp_bytes": 57176,
+      "source_sha256": "e4411961eb57cbf415f3d468ebf034d8a65700ed61cbae9dacc5095558f90dc8",
+      "webp_sha256": "bbd40763ccb0d715244f2001974946baac77a13152980d4bcaa88d18a7a72d9a"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-video-watermark.png",
+      "webp": "static/marketing/webp/quiznauts-video-watermark.webp",
+      "width": 300,
+      "height": 300,
+      "source_bytes": 21719,
+      "webp_bytes": 8732,
+      "source_sha256": "384f02b9bb308907366e33f73c7fcb83391d7922f5faea3fc43246fdc0f1c780",
+      "webp_sha256": "6ed2e0cfaf68051eb88a606c62125fc4e52876e32d2d9e7dcec70aa5c2960f9e"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-wide-profile-header.png",
+      "webp": "static/marketing/webp/quiznauts-wide-profile-header.webp",
+      "width": 1500,
+      "height": 500,
+      "source_bytes": 94757,
+      "webp_bytes": 31898,
+      "source_sha256": "342e9568c7444c3ab4e0f0c729b669b307843f61d68ee83fadd615ec1418ff20",
+      "webp_sha256": "2c560f1e6472a68db38df20d7bfd9db6704c6fe3f943ea848ab1249214002442"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-youtube-banner.png",
+      "webp": "static/marketing/webp/quiznauts-youtube-banner.webp",
+      "width": 2560,
+      "height": 1440,
+      "source_bytes": 203281,
+      "webp_bytes": 52616,
+      "source_sha256": "862c54c71c7804f2d0dca58daab4b4df9af778524a27033753b6876ec6f7a5c5",
+      "webp_sha256": "ca0767fbf2d13d8834b6ce251e5415c9e4ad6dd2fec3c1aebccfb4c2ea50d79b"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-youtube-end-card.png",
+      "webp": "static/marketing/webp/quiznauts-youtube-end-card.webp",
+      "width": 1920,
+      "height": 1080,
+      "source_bytes": 192682,
+      "webp_bytes": 59902,
+      "source_sha256": "1ecebcb0165dd10616dc6086388d9a9befb9be667f5c83816f0bbaaf2d3a60d8",
+      "webp_sha256": "1ef7c428c67f9b9f83167eccb54dbba897469eba9f1287bfc6e5d057a3527298"
+    },
+    {
+      "source": "static/marketing/png/quiznauts-youtube-thumbnail.png",
+      "webp": "static/marketing/webp/quiznauts-youtube-thumbnail.webp",
+      "width": 3840,
+      "height": 2160,
+      "source_bytes": 499550,
+      "webp_bytes": 129728,
+      "source_sha256": "f1a71b5339fdf81c421be0b1a6c5fb40d97b618a4b246b842563c8166f0938c1",
+      "webp_sha256": "9b6ed66e5574216732d48fd31d77b91e0c2fa96dca2cb8f4286fe2f49cd28dc6"
+    }
+  ]
+}

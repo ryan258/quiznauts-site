@@ -1,0 +1,793 @@
+{
+  "checked_at": "2026-10-22T12:56:56.235964-05:00",
+  "scope": "Owner-run Chromium checks of the built local site; no publishing or source-page requests.",
+  "limitations": [
+    "Not a full accessibility audit or WCAG conformance claim.",
+    "320 CSS pixels simulates narrow reflow; root text enlargement is not actual browser zoom.",
+    "Screenshots are bounded viewport samples; inspect them for clipping, reading size and crop quality.",
+    "Computed focus styles do not establish human-visible focus quality or screen-reader usability.",
+    "Forced colors and reduced motion are browser emulations, not device or operating-system acceptance.",
+    "Actual 200/400% zoom, assistive technology, final human visual/content acceptance and real upload previews remain manual."
+  ],
+  "blocked_external_requests": [],
+  "page_errors": [],
+  "layout_checks": [
+    {
+      "scenario": "desktop",
+      "page": "/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1282,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/desktop-home.png"
+    },
+    {
+      "scenario": "desktop",
+      "page": "/missions/first-contact/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1280,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/desktop-mission.png"
+    },
+    {
+      "scenario": "desktop",
+      "page": "/media/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1280,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/desktop-media.png"
+    },
+    {
+      "scenario": "narrow",
+      "page": "/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 323,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/narrow-home.png"
+    },
+    {
+      "scenario": "narrow",
+      "page": "/missions/first-contact/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 320,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/narrow-mission.png"
+    },
+    {
+      "scenario": "narrow",
+      "page": "/media/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 399,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [
+          {
+            "tag": "P",
+            "class": "asset-usage",
+            "text": "Pair with the question card. Include source https://oceanservice.noaa.gov/facts/",
+            "left": 38,
+            "right": 399
+          }
+        ],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/narrow-media.png"
+    },
+    {
+      "scenario": "desktop-text-200",
+      "page": "/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1281,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "32px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/desktop-text-200-home.png"
+    },
+    {
+      "scenario": "desktop-text-200",
+      "page": "/missions/first-contact/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1280,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "32px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/desktop-text-200-mission.png"
+    },
+    {
+      "scenario": "desktop-text-200",
+      "page": "/media/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1443,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [
+          {
+            "tag": "P",
+            "class": "asset-usage",
+            "text": "Pair with the question card. Include source https://oceanservice.noaa.gov/facts/",
+            "left": 721,
+            "right": 1443
+          }
+        ],
+        "rootFontSize": "32px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/desktop-text-200-media.png"
+    },
+    {
+      "scenario": "narrow-text-200",
+      "page": "/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 515,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [
+          {
+            "tag": "DIV",
+            "class": "",
+            "text": "Ready when you areYour first mission: First ContactA little space, a little natu",
+            "left": 147,
+            "right": 324
+          },
+          {
+            "tag": "P",
+            "class": "eyebrow",
+            "text": "Ready when you are",
+            "left": 147,
+            "right": 324
+          },
+          {
+            "tag": "H2",
+            "class": "",
+            "text": "Your first mission: First Contact",
+            "left": 147,
+            "right": 324
+          },
+          {
+            "tag": "P",
+            "class": "",
+            "text": "A little space, a little nature, and one excellent reason to keep asking \u201cwhy?\u201d",
+            "left": 147,
+            "right": 324
+          },
+          {
+            "tag": "A",
+            "class": "button button-yellow",
+            "text": "Take the three-question quiz \u2192",
+            "left": 35,
+            "right": 324
+          },
+          {
+            "tag": "DIV",
+            "class": "section-heading",
+            "text": "Good questions take you placesFollow that\u201cwait, really?\u201dYou don\u2019t need to know e",
+            "left": 35,
+            "right": 344
+          },
+          {
+            "tag": "P",
+            "class": "eyebrow",
+            "text": "Good questions take you places",
+            "left": 35,
+            "right": 344
+          },
+          {
+            "tag": "H2",
+            "class": "",
+            "text": "Follow that\u201cwait, really?\u201d",
+            "left": 35,
+            "right": 344
+          },
+          {
+            "tag": "P",
+            "class": "",
+            "text": "You don\u2019t need to know everything. You just need somewhere interesting to start.",
+            "left": 35,
+            "right": 344
+          },
+          {
+            "tag": "DIV",
+            "class": "topic-list",
+            "text": "01Out of this worldPlanets, possibilities, and the space between.\u219702Down to Eart",
+            "left": 35,
+            "right": 344
+          },
+          {
+            "tag": "A",
+            "class": "topic-row",
+            "text": "01Out of this worldPlanets, possibilities, and the space between.\u2197",
+            "left": 35,
+            "right": 344
+          },
+          {
+            "tag": "SPAN",
+            "class": "",
+            "text": "Out of this worldPlanets, possibilities, and the space between.",
+            "left": 182,
+            "right": 344
+          }
+        ],
+        "rootFontSize": "32px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/narrow-text-200-home.png"
+    },
+    {
+      "scenario": "narrow-text-200",
+      "page": "/missions/first-contact/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 515,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [
+          {
+            "tag": "DIV",
+            "class": "",
+            "text": "Mission 01 \u00b7 Three questions \u00b7 No timerFirst ContactThree questions across our p",
+            "left": 35,
+            "right": 382
+          },
+          {
+            "tag": "P",
+            "class": "eyebrow",
+            "text": "Mission 01 \u00b7 Three questions \u00b7 No timer",
+            "left": 35,
+            "right": 382
+          },
+          {
+            "tag": "H1",
+            "class": "",
+            "text": "First Contact",
+            "left": 35,
+            "right": 382
+          },
+          {
+            "tag": "P",
+            "class": "page-deck",
+            "text": "Three questions across our planet, the solar system, and the animal world. No ti",
+            "left": 35,
+            "right": 382
+          },
+          {
+            "tag": "IMG",
+            "class": "",
+            "text": "",
+            "left": 48,
+            "right": 368
+          },
+          {
+            "tag": "LABEL",
+            "class": "answer-option",
+            "text": "AAtlantic",
+            "left": 71,
+            "right": 336
+          },
+          {
+            "tag": "LABEL",
+            "class": "answer-option",
+            "text": "BPacific",
+            "left": 71,
+            "right": 336
+          },
+          {
+            "tag": "LABEL",
+            "class": "answer-option",
+            "text": "CIndian",
+            "left": 71,
+            "right": 336
+          }
+        ],
+        "rootFontSize": "32px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/narrow-text-200-mission.png"
+    },
+    {
+      "scenario": "narrow-text-200",
+      "page": "/media/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 797,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [
+          {
+            "tag": "H2",
+            "class": "",
+            "text": "YouTube end-card background",
+            "left": 75,
+            "right": 340
+          },
+          {
+            "tag": "H2",
+            "class": "",
+            "text": "Square brand introduction",
+            "left": 75,
+            "right": 343
+          },
+          {
+            "tag": "H2",
+            "class": "",
+            "text": "First Contact explanation card",
+            "left": 75,
+            "right": 331
+          },
+          {
+            "tag": "P",
+            "class": "asset-usage",
+            "text": "Pair with the question card. Include source https://oceanservice.noaa.gov/facts/",
+            "left": 75,
+            "right": 797
+          },
+          {
+            "tag": "H2",
+            "class": "",
+            "text": "Community cover artwork",
+            "left": 75,
+            "right": 330
+          }
+        ],
+        "rootFontSize": "32px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/narrow-text-200-media.png"
+    },
+    {
+      "scenario": "desktop-text-spacing",
+      "page": "/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1282,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/desktop-text-spacing-home.png"
+    },
+    {
+      "scenario": "desktop-text-spacing",
+      "page": "/missions/first-contact/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1280,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/desktop-text-spacing-mission.png"
+    },
+    {
+      "scenario": "desktop-text-spacing",
+      "page": "/media/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1280,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/desktop-text-spacing-media.png"
+    },
+    {
+      "scenario": "narrow-text-spacing",
+      "page": "/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 323,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/narrow-text-spacing-home.png"
+    },
+    {
+      "scenario": "narrow-text-spacing",
+      "page": "/missions/first-contact/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 320,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/narrow-text-spacing-mission.png"
+    },
+    {
+      "scenario": "narrow-text-spacing",
+      "page": "/media/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 494,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [
+          {
+            "tag": "P",
+            "class": "asset-usage",
+            "text": "Pair with the question card. Include source https://oceanservice.noaa.gov/facts/",
+            "left": 38,
+            "right": 494
+          }
+        ],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": false,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/narrow-text-spacing-media.png"
+    },
+    {
+      "scenario": "reduced-motion",
+      "page": "/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1282,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": true,
+        "forcedColors": false,
+        "scrollBehavior": "auto",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/reduced-motion-home.png"
+    },
+    {
+      "scenario": "reduced-motion",
+      "page": "/missions/first-contact/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1280,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": true,
+        "forcedColors": false,
+        "scrollBehavior": "auto",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/reduced-motion-mission.png"
+    },
+    {
+      "scenario": "reduced-motion",
+      "page": "/media/",
+      "layout": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1280,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": true,
+        "forcedColors": false,
+        "scrollBehavior": "auto",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/reduced-motion-media.png"
+    },
+    {
+      "scenario": "forced-colors",
+      "page": "/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 320,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": true,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/forced-colors-home.png"
+    },
+    {
+      "scenario": "forced-colors",
+      "page": "/missions/first-contact/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 320,
+        "horizontalOverflow": false,
+        "possibleOutsideElements": [],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": true,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": true,
+      "screenshot": "reports/browser/forced-colors-mission.png"
+    },
+    {
+      "scenario": "forced-colors",
+      "page": "/media/",
+      "layout": {
+        "viewportWidth": 320,
+        "scrollWidth": 400,
+        "horizontalOverflow": true,
+        "possibleOutsideElements": [
+          {
+            "tag": "P",
+            "class": "asset-usage",
+            "text": "Pair with the question card. Include source https://oceanservice.noaa.gov/facts/",
+            "left": 39,
+            "right": 400
+          }
+        ],
+        "rootFontSize": "16px",
+        "reducedMotion": false,
+        "forcedColors": true,
+        "scrollBehavior": "smooth",
+        "autoplayElements": 0,
+        "bodyFont": "Arial, Helvetica, sans-serif"
+      },
+      "passed": false,
+      "error": "Document has horizontal overflow; inspect screenshot and outside-element hints.",
+      "screenshot": "reports/browser/forced-colors-media.png"
+    }
+  ],
+  "origin": "http://127.0.0.1:55015",
+  "browser_version": "156.0.8078.4",
+  "keyboard_check": {
+    "page": "/",
+    "steps": [
+      {
+        "tag": "A",
+        "text": "Skip to content",
+        "href": "#main",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "rgb(243, 231, 200) 0px 0px 0px 7px",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "href": "/",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "rgb(243, 231, 200) 0px 0px 0px 7px",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "text": "Missions",
+        "href": "/missions/",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "rgb(243, 231, 200) 0px 0px 0px 7px",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "text": "Field notes",
+        "href": "/field-notes/",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "rgb(243, 231, 200) 0px 0px 0px 7px",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "text": "Meet Mr. Big",
+        "href": "/about/",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "rgb(243, 231, 200) 0px 0px 0px 7px",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "text": "Try a quiz \u2197",
+        "href": "/missions/first-contact/",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "rgb(243, 231, 200) 0px 0px 0px 7px",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "text": "Launch your first mission \u2197",
+        "href": "/missions/first-contact/",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "rgb(243, 231, 200) 0px 0px 0px 7px",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "text": "Meet your mission companion \u2192",
+        "href": "/about/",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "rgb(243, 231, 200) 0px 0px 0px 7px",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "text": "Take the three-question quiz \u2192",
+        "href": "/missions/first-contact/",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "boxShadow": "none",
+        "inViewport": false
+      }
+    ],
+    "passed": false,
+    "error": "Keyboard focus is not focus-visible and in the viewport."
+  },
+  "quiz_check": {
+    "question_ids": [
+      "fc-ocean-pacific",
+      "fc-venus-rotation",
+      "fc-octopus-hearts"
+    ],
+    "steps": [
+      "No selection gives guidance and focuses an answer without scoring.",
+      "Incorrect-to-correct change invalidates and recounts once; repeated checks do not inflate progress.",
+      "All data-bound answers score correctly; radio accessible names include letters.",
+      "Changing a completed answer hides and clears the old score until rechecked.",
+      "Reset clears answers, explanations, feedback, score and progress, then restores focus."
+    ],
+    "completion_screenshot": "reports/browser/mission-complete.png",
+    "passed": true
+  },
+  "no_js_check": {
+    "steps": [
+      "All three native details open with Enter and expose the expected answers/sources without JavaScript."
+    ],
+    "screenshot": "reports/browser/mission-no-js.png",
+    "passed": true
+  },
+  "passed": false
+}

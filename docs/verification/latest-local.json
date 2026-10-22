@@ -1,0 +1,19 @@
+{
+  "scope": "Local source/generated-site contracts; no browser/AT/human acceptance",
+  "passed": true,
+  "base_url": "http://localhost:1313/",
+  "indexable": false,
+  "pages": 12,
+  "local_references": 310,
+  "marketing_assets": 14,
+  "webp_images": 22,
+  "brand_files": 44,
+  "missions": 1,
+  "sample_questions": 3,
+  "failures": [],
+  "browser_run": false,
+  "source_snapshot": {
+    "sha256": "c215e59505dccc942ae54ad0c26922f9836f6edb60053bfb5341a8c84086039d",
+    "input_files": 152
+  }
+}

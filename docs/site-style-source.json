@@ -1,0 +1,31 @@
+{
+  "updated": "2026-10-22",
+  "direction": "Reference-derived cut-paper space poster",
+  "source_styles": [
+    "../quiznauts/css/atomic.css",
+    "../quiznauts/assets/brand/player/bass/README.md"
+  ],
+  "scope": "Byte-identical public player artwork. Earlier v1.4 SVG/PNG/WebP library and marketing exports remain preserved in their existing kits. Reference board, prompts and private quiz data are not copied.",
+  "files": [
+    {
+      "path": "static/brand/player/bass/background.webp",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/player/bass/background.webp",
+      "sha256": "5aa9362daef6112bdf79f1c48a42171e2a419e3bed39d42c9059f3d88233bc8b"
+    },
+    {
+      "path": "static/brand/player/bass/wordmark.webp",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/player/bass/wordmark.webp",
+      "sha256": "f7e436c8eb9e12316d36deef0ee1b8c5051f35e2128f77323aa3948306586099"
+    },
+    {
+      "path": "static/brand/player/bass/mr-big-waiting.webp",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/player/bass/mr-big-waiting.webp",
+      "sha256": "18adb07288b7715ab12a2d8cff1a35f268a1d4eb6ffcf35ca7109ff1b0aea409"
+    },
+    {
+      "path": "static/brand/player/bass/mr-big-raised.webp",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/player/bass/mr-big-raised.webp",
+      "sha256": "f0abd7ffbdd7bbc0ee9e11c5918b1d2a4352f0c98500be1600e69900293d19d3"
+    }
+  ]
+}

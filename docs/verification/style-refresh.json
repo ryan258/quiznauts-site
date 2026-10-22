@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-22",
+  "scope": "Local style/source/build verification; no browser, assistive-technology, print rendering or human visual acceptance",
+  "passed": true,
+  "source_snapshot": {
+    "sha256": "c215e59505dccc942ae54ad0c26922f9836f6edb60053bfb5341a8c84086039d",
+    "input_files": 152
+  },
+  "local_gate": "./qn check",
+  "local_gate_passed": true,
+  "pages": 12,
+  "css_asset_urls": "All compiled CSS local image URLs resolve inside public/",
+  "player_artwork": "Four source copies match both their recorded SHA-256 and sibling source bytes",
+  "palette_contrast_ratios": {
+    "body_on_paper": 13.91,
+    "cream_on_night": 16.73,
+    "navy_on_gold": 9.11,
+    "muted_on_paper": 6.47,
+    "cream_on_red_coin": 5.85,
+    "cream_on_blue_coin": 5.93,
+    "navy_on_orange_coin": 5.42,
+    "answer_text_on_paper": 5.56
+  },
+  "contrast_limit": "Calculated token pairs, not computed browser styles or a full accessibility evaluation",
+  "preservation": "Existing v1.4 public brand sources and marketing assets/ZIPs match pre-style backup bytes",
+  "pre_style_backup": "backups/quiznauts-source-20261022-180044-839420.zip",
+  "browser_run": false,
+  "owner_browser_command": "./qn browser",
+  "gitnexus": {
+    "repo": "/Users/ryanjohnson/Projects/quiznauts-site",
+    "owner_refreshed_index_at": "2026-10-22T23:01:36.812Z",
+    "impact": "UNKNOWN for Sass/Hugo targets; native template/import/asset references traced before editing",
+    "limit": "No commit-based freshness proof; repository has no first commit"
+  },
+  "known_build_warning": "Installed Hugo LibSass deprecation notice"
+}

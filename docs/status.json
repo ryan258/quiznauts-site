@@ -1,0 +1,29 @@
+{
+  "updated": "2026-10-22",
+  "mode": "local_authoring",
+  "local_evidence": "docs/verification/latest-local.json",
+  "harmony_record": "docs/verification/harmony-repair.json",
+  "browser": {
+    "status": "pending_owner_rerun",
+    "command": "./qn browser",
+    "original_owner_report": "docs/verification/browser-before-reflow.json",
+    "acceptance": "Actual zoom, keyboard reading, screen reader, print and final visual review remain separate."
+  },
+  "recovery": {
+    "command": "./qn backup",
+    "folder": "backups/",
+    "git_checkpoint": "clean; staged and committed in 5 logical bundles on main",
+    "limit": "Local source ZIPs do not protect against disk loss; copy a checkpoint to another disk when wanted."
+  },
+  "next_action": "Run ./qn browser and review its report and screenshots.",
+  "publication": "not_performed",
+  "external_destinations": "Read data/properties.json; blank destinations stay hidden. Ownership is not inferred from URL validity.",
+  "marketing": "marketing/status.json owns draft copy and launch decisions; it does not establish site acceptance.",
+  "style": {
+    "direction": "Sibling Quiznauts cut-paper space poster",
+    "source_receipt": "docs/site-style-source.json",
+    "browser": "pending_owner_review",
+    "preserved": "Earlier v1.4 source library and marketing kits",
+    "pre_change_backup": "backups/quiznauts-source-20261022-180044-839420.zip"
+  }
+}

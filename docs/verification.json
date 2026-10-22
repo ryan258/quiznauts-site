@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-22",
+  "scope": "Local Hugo companion site and marketing scaffold",
+  "hugo": "0.166.0 extended",
+  "python": "3.9.6",
+  "local_build": {
+    "passed": true,
+    "html_pages": 12,
+    "local_references": 295,
+    "marketing_designs": 14,
+    "sample_questions": 3
+  },
+  "subpath_build": {
+    "passed": true,
+    "base_url": "https://example.test/quiznauts/",
+    "local_references": 295
+  },
+  "source_identity": {
+    "files_matched": 44,
+    "record": "docs/brand-source.json"
+  },
+  "artwork": {
+    "svg_masters": 14,
+    "png_exports": 14,
+    "zip_crc": "pass",
+    "native_contact_sheet_review": "performed",
+    "platform_upload_or_crop_acceptance": "not_performed"
+  },
+  "contrast_pairs": [
+    {
+      "foreground": "#292822",
+      "background": "#F3E7C8",
+      "ratio": 12.02
+    },
+    {
+      "foreground": "#123C3D",
+      "background": "#F3E7C8",
+      "ratio": 9.82
+    },
+    {
+      "foreground": "#FFF9E9",
+      "background": "#123C3D",
+      "ratio": 11.49
+    },
+    {
+      "foreground": "#292822",
+      "background": "#E8B844",
+      "ratio": 8.0
+    },
+    {
+      "foreground": "#52605A",
+      "background": "#F3E7C8",
+      "ratio": 5.37
+    }
+  ],
+  "known_warning": "Hugo bundled LibSass is deprecated but compiles successfully on this installed release; no global warning suppression.",
+  "browser": {
+    "agent_launched_browser": false,
+    "owner_run": {
+      "checked_at": "2026-10-22T12:56:56.235964-05:00",
+      "browser_version": "156.0.8078.4",
+      "passed": false,
+      "layout_cases": 24,
+      "failed_layout_cases": [
+        "desktop:/",
+        "narrow:/",
+        "narrow:/media/",
+        "desktop-text-200:/media/",
+        "narrow-text-200:/",
+        "narrow-text-200:/missions/first-contact/",
+        "narrow-text-200:/media/",
+        "desktop-text-spacing:/",
+        "narrow-text-spacing:/",
+        "narrow-text-spacing:/media/",
+        "reduced-motion:/",
+        "forced-colors:/media/"
+      ],
+      "quiz_check": true,
+      "no_js_check": true,
+      "keyboard_check": false,
+      "blocked_external_requests": 0,
+      "page_errors": 0,
+      "original_report": "docs/verification/browser-before-reflow.json",
+      "original_report_sha256": "af5ed9ed89ce97a331cf03b9101eb2f9cccc4b517cb3afa5d8062b7b3a9466e7"
+    },
+    "repair_rerun": "pending owner execution",
+    "owner_command": "./qn browser",
+    "helper": "scripts/check_browser.py"
+  },
+  "human_acceptance": "pending: content, visual, keyboard, zoom and assistive technology",
+  "publication": "not_performed",
+  "external_account_changes": "not_performed",
+  "reflow_repair": {
+    "date": "2026-10-22",
+    "native_hugo_and_source_check": "pass",
+    "python_helper_syntax": "pass",
+    "independent_source_review": "completed; no further required changes found",
+    "browser_rerun": "pending owner execution",
+    "owner_command": "./qn browser",
+    "record": "docs/reflow-repair.md"
+  },
+  "current_review": {
+    "date": "2026-10-22",
+    "record": "docs/verification/current-review.json",
+    "review": "docs/project-review.md",
+    "note": "Earlier numerical fields are historical receipts; this separate record covers the current WebP build. Browser rerun remains pending."
+  },
+  "current_status": "docs/status.json",
+  "latest_local_evidence": "docs/verification/latest-local.json",
+  "harmony_repair": "docs/verification/harmony-repair.json"
+}

@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-22",
+  "scope": "Full initial project review plus lossless image migration and focused source/build validation",
+  "hugo": "hugo v0.166.0+extended+withdeploy darwin/arm64 BuildDate=2026-09-09T14:45:02Z VendorInfo=Homebrew",
+  "python": "3.14.7",
+  "git_at_start": {
+    "branch": "main",
+    "commits": 0,
+    "tracked_files": 0,
+    "untracked_nonignored_files": 142,
+    "remote_configured": false
+  },
+  "gitnexus": {
+    "checkout": "/Users/ryanjohnson/Projects/quiznauts-site",
+    "indexed_at": "2026-10-22T18:14:44.693Z",
+    "indexed_files": 59,
+    "nodes": 245,
+    "edges": 305,
+    "processes": 4,
+    "index_predates_review_changes": true,
+    "detect_changes": "unavailable: no HEAD; full untracked inventory reviewed directly",
+    "impact": "LOW for indexed edited functions; UNKNOWN qn/template edges traced in source; check has unresolved receiver boundaries"
+  },
+  "local_check": {
+    "passed": true,
+    "pages": 12,
+    "local_references": 309,
+    "marketing_assets": 14,
+    "webp_images": 22,
+    "sample_questions": 3,
+    "browser_run": false
+  },
+  "focused_checks": {
+    "subpath": {
+      "scope": "Local source and generated-site checks; no browser/AT/human acceptance",
+      "pages": 12,
+      "local_references": 309,
+      "marketing_assets": 14,
+      "webp_images": 22,
+      "sample_questions": 3,
+      "failures": [],
+      "browser_run": false
+    },
+    "empty_output_rejected": {
+      "exit": 1,
+      "missing_routes": 6
+    },
+    "stale_webp_receipt_rejected": {
+      "exit": 1,
+      "failures": [
+        "PNG changed; run ./qn images: static/brand/png/mascot/mr-big-avatar-delighted.png"
+      ]
+    },
+    "webp_gallery_images": 14
+  },
+  "pixels": {
+    "rgba_identical": 22,
+    "failed": [],
+    "groups": {
+      "brand": {
+        "png_bytes": 930364,
+        "webp_bytes": 309626,
+        "images": 8,
+        "transparent": 8
+      },
+      "marketing": {
+        "png_bytes": 2270085,
+        "webp_bytes": 682548,
+        "images": 14,
+        "transparent": 1
+      }
+    }
+  },
+  "archives": {
+    "social": {
+      "files": 42,
+      "bytes": 2874805
+    },
+    "brand": {
+      "files": 52,
+      "bytes": 1240472
+    }
+  },
+  "preservation": {
+    "original_svg_and_png_files_unchanged": 72,
+    "brand_files_matching_receipt_and_current_sibling_source": 44,
+    "original_browser_report_unchanged": true
+  },
+  "known_warning": "Installed Hugo bundled LibSass deprecation; build succeeds, warning retained",
+  "browser": {
+    "agent_launched": false,
+    "latest_saved_owner_run_passed": false,
+    "original_owner_run": "docs/verification/browser-before-reflow.json",
+    "repair_rerun": "pending owner execution",
+    "next_command": "./qn browser"
+  },
+  "primary_sources_reopened": [
+    "https://oceanservice.noaa.gov/facts/biggestocean.html",
+    "https://spaceplace.nasa.gov/all-about-venus/en/",
+    "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/red-octopus",
+    "https://support.google.com/youtube/answer/10456525?hl=en",
+    "https://support.google.com/youtube/answer/72431?hl=en",
+    "https://gohugo.io/functions/css/sass/"
+  ],
+  "open_findings": "docs/project-review.md",
+  "human_acceptance": "pending: browser reflow, actual zoom, keyboard reading, screen reader, print, content/visual and platform upload/crops",
+  "external_actions": "none: no staging, commits, pushes, deployments, account changes, publication, paid providers or messages",
+  "review_file_changes": {
+    "modified": [
+      "AGENTS.md",
+      "README.md",
+      "content/field-notes/meet-mr-big.md",
+      "content/media.md",
+      "data/marketing.json",
+      "docs/handoff.md",
+      "docs/site-operations.md",
+      "docs/verification.json",
+      "docs/visual-assets.md",
+      "layouts/media/single.html",
+      "qn",
+      "scripts/check_site.py",
+      "scripts/generate-art.py",
+      "scripts/package_kits.py",
+      "static/marketing/downloads/quiznauts-brand-kit.zip",
+      "static/marketing/downloads/quiznauts-social-kit.zip"
+    ],
+    "added": [
+      "docs/image-optimization.json",
+      "docs/project-review.md",
+      "docs/verification/current-review.json",
+      "scripts/optimize_images.py",
+      "static/brand/webp/mascot/mr-big-avatar-delighted.webp",
+      "static/brand/webp/mascot/mr-big-avatar-surprised.webp",
+      "static/brand/webp/mascot/mr-big-avatar-thinking.webp",
+      "static/brand/webp/mascot/mr-big-avatar.webp",
+      "static/brand/webp/mascot/mr-big-celebrating.webp",
+      "static/brand/webp/mascot/mr-big-pointing.webp",
+      "static/brand/webp/mascot/mr-big-silhouette.webp",
+      "static/brand/webp/mascot/mr-big-welcome.webp",
+      "static/marketing/webp/quiznauts-avatar.webp",
+      "static/marketing/webp/quiznauts-brand-square.webp",
+      "static/marketing/webp/quiznauts-explanation-card.webp",
+      "static/marketing/webp/quiznauts-facebook-cover.webp",
+      "static/marketing/webp/quiznauts-feed-portrait.webp",
+      "static/marketing/webp/quiznauts-open-graph.webp",
+      "static/marketing/webp/quiznauts-pinterest-poster.webp",
+      "static/marketing/webp/quiznauts-question-card.webp",
+      "static/marketing/webp/quiznauts-vertical-invitation.webp",
+      "static/marketing/webp/quiznauts-video-watermark.webp",
+      "static/marketing/webp/quiznauts-wide-profile-header.webp",
+      "static/marketing/webp/quiznauts-youtube-banner.webp",
+      "static/marketing/webp/quiznauts-youtube-end-card.webp",
+      "static/marketing/webp/quiznauts-youtube-thumbnail.webp"
+    ],
+    "deleted": [],
+    "current_untracked_count": 146
+  },
+  "concurrent_observed_changes": {
+    "file": ".gitignore",
+    "change": "Blanket *.png rule added during review; preserved",
+    "effect": "22 source PNGs are intact locally but excluded from normal untracked status; future normal Git checkpoint would omit required build inputs",
+    "review_finding": "R25"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-22",
+  "scope": "Authorized local correction pass from the full project review; no browser or publication",
+  "gitnexus": {
+    "checkout": "/Users/ryanjohnson/Projects/quiznauts-site",
+    "indexed_at": "2026-10-22T18:38:06.950Z",
+    "indexed_files": 64,
+    "nodes": 278,
+    "edges": 349,
+    "processes": 4,
+    "pre_edit_hash_mismatches": [],
+    "impact": "LOW for indexed edited functions; UNKNOWN CLI/template/parser paths traced directly. Browser helper run_quiz_check reaches three browser-check processes. Index now predates these edits.",
+    "diff_limit": "HEAD does not exist; source snapshots and direct file diffs were used. No commit analysis was claimed."
+  },
+  "local_check": {
+    "scope": "Local source/generated-site contracts; no browser/AT/human acceptance",
+    "passed": true,
+    "base_url": "http://localhost:1313/",
+    "indexable": false,
+    "pages": 12,
+    "local_references": 310,
+    "marketing_assets": 14,
+    "webp_images": 22,
+    "brand_files": 44,
+    "missions": 1,
+    "sample_questions": 3,
+    "failures": [],
+    "browser_run": false,
+    "source_snapshot": {
+      "sha256": "72b6b4052eab54455af08156070028c72f7ef2dd651e8e903483d09e3d5ce74e",
+      "input_files": 147
+    }
+  },
+  "targeted_regressions": {
+    "command": "python3 -m unittest discover -s scripts -p test_contracts.py",
+    "tests": 12,
+    "passed": true,
+    "scope": "Malformed URLs/data, rendered-content disagreement, stale/missing ZIPs, deterministic archive bytes, guarded artwork import/failure, backup PNG/mode/hash preservation and credential/runtime exclusions"
+  },
+  "integration": {
+    "preview_subpath": {
+      "pages": 12,
+      "local_references": 310,
+      "missions": 1,
+      "passed": true,
+      "indexable": false
+    },
+    "public_subpath": {
+      "pages": 12,
+      "local_references": 322,
+      "missions": 1,
+      "passed": true,
+      "indexable": true
+    },
+    "invalid_public_origins_rejected": 5,
+    "invalid_destination_rejected_by_hugo": true,
+    "second_mission_distinct": {
+      "pages": 13,
+      "local_references": 334,
+      "missions": 2,
+      "passed": true,
+      "indexable": false
+    },
+    "unknown_mission_rejected": true,
+    "mismatched_mission_data_rejected": true,
+    "empty_output_rejected": true
+  },
+  "javascript_logic": {
+    "passed": true,
+    "cases": [
+      "no selection",
+      "repeat check",
+      "all correct",
+      "answer invalidation",
+      "mixed score",
+      "zero correct",
+      "live completion",
+      "no forced completion focus",
+      "reset"
+    ],
+    "scope": "Actual mission.js in a minimal in-memory DOM boundary; no browser/layout or screen-reader proof"
+  },
+  "original_readiness_bug": {
+    "malformed_destination_and_ftp_origin_rejected": true,
+    "exit": 1,
+    "configuration_complete": false
+  },
+  "preservation": {
+    "original_svg_png_unchanged": 72,
+    "original_webp_unchanged": 22,
+    "png_originals_visible_to_git": 22,
+    "original_owner_browser_receipt_unchanged": true
+  },
+  "recovery": {
+    "checkpoint": "backups/quiznauts-source-20261022-135750-985063.zip",
+    "files": 174,
+    "sha256": "9f36c488c311dcedbaca50e549d0eebae9d0e3ace1039d62c08a28b8c3b582e3",
+    "manifest_hashes": "pass",
+    "clean_extraction_check": {
+      "passed": true,
+      "command": "python3 qn check",
+      "pages": 12,
+      "local_references": 310,
+      "source_snapshot_matches_current": true
+    },
+    "limit": "Same-disk source checkpoint; copy elsewhere for disk-loss recovery. This receipt was finalized after the checkpoint restore check."
+  },
+  "changed_files": [
+    "qn",
+    "README.md",
+    ".gitignore",
+    "hugo.toml",
+    "content/about.md",
+    "docs/visual-assets.md",
+    "docs/site-operations.md",
+    "docs/project-review.md",
+    "docs/verification.json",
+    "docs/handoff.md",
+    "layouts/robots.txt",
+    "scripts/check_browser.py",
+    "scripts/package_kits.py",
+    "scripts/generate-art.py",
+    "scripts/check_site.py",
+    "marketing/accessible-publishing.md",
+    "marketing/status.json",
+    "assets/js/mission.js",
+    "assets/scss/site.scss",
+    "static/marketing/downloads/quiznauts-brand-kit.zip",
+    "static/marketing/downloads/quiznauts-social-kit.zip",
+    "layouts/mission/single.html",
+    "layouts/_default/single.html",
+    "layouts/_default/rss.xml",
+    "layouts/_default/baseof.html",
+    "layouts/partials/head.html",
+    "layouts/partials/header.html"
+  ],
+  "added_files": [
+    "data/missions.json",
+    "data/url_policy.json",
+    "docs/status.json",
+    "docs/verification/handoff-before-harmony.md",
+    "docs/verification/latest-local.json",
+    "layouts/partials/mission-data.html",
+    "layouts/partials/public-site.html",
+    "layouts/partials/public-url.html",
+    "scripts/backup_project.py",
+    "scripts/content_contract.py",
+    "scripts/test_contracts.py",
+    "docs/verification/harmony-repair.json"
+  ],
+  "remaining": {
+    "owner_acceptance": "./qn browser, actual zoom/keyboard/screen-reader/print/content/visual review and live platform crops",
+    "publication_choices": "Account ownership, real URLs/domain/contact and any publication remain owner-controlled",
+    "maintenance": "Installed LibSass still builds with its unsuppressed deprecation warning; future Dart Sass migration is documented",
+    "optional": "New content and larger reuse tooling remain deferred"
+  },
+  "git": {
+    "branch": "main",
+    "commits": 0,
+    "tracked_or_staged_files": 0,
+    "staged_committed_pushed_or_published": false
+  },
+  "agent_launched_browser": false
+}

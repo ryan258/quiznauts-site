@@ -1,0 +1,226 @@
+{
+  "library_version": "1.4",
+  "copied_at": "2026-10-22",
+  "files": [
+    {
+      "path": "static/brand/svg/badges/cadet.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/badges/cadet.svg",
+      "sha256": "a2d62a0afa5090b1b883edf9ef5ec1d34b6387d8a5a1ef0a65cd707730959eaf"
+    },
+    {
+      "path": "static/brand/svg/badges/commander.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/badges/commander.svg",
+      "sha256": "d87c0dfb501590e9ca8dc89e10c9a928b386d72b0f555f236da5b9e3f90b648f"
+    },
+    {
+      "path": "static/brand/svg/badges/mission-patch.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/badges/mission-patch.svg",
+      "sha256": "04d147fee5bbabca53314ae7adf434a9b2a950ed3f72af85bdd18dcdf46d9658"
+    },
+    {
+      "path": "static/brand/svg/badges/navigator.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/badges/navigator.svg",
+      "sha256": "3b57ed20b93506695de91a970cce1720e475eea8f7ccb3038b4503e60db26a00"
+    },
+    {
+      "path": "static/brand/svg/frames/answer-key.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/frames/answer-key.svg",
+      "sha256": "ec1a92c13d6cc29525973c4d31cf277b1d4b101a5de417fb4e4edd32858d1f56"
+    },
+    {
+      "path": "static/brand/svg/frames/lower-third.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/frames/lower-third.svg",
+      "sha256": "a2928201ffdec8cd9d8539b6bb2d95fece9ab4342f2871291b53f09c0768c2f8"
+    },
+    {
+      "path": "static/brand/svg/frames/question-panel.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/frames/question-panel.svg",
+      "sha256": "f5fc6c3e4142cea3a0badae0e47e8fa698ce9763ce8dbcf613f6d37decf5118e"
+    },
+    {
+      "path": "static/brand/svg/frames/thumbnail-frame.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/frames/thumbnail-frame.svg",
+      "sha256": "6337df4dc38f316608931511f0b95d4e9549615d7010426035d2f3664ce5a34e"
+    },
+    {
+      "path": "static/brand/svg/glyphs/check.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/check.svg",
+      "sha256": "936b3a9f3109d0f5d740cee67a6e20765532f02d01be23382de8db85d77d9056"
+    },
+    {
+      "path": "static/brand/svg/glyphs/clipboard.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/clipboard.svg",
+      "sha256": "db86aeed7e28cca38d219de323bc1ed6f9e09686530d4b01c954a2de2b8f7037"
+    },
+    {
+      "path": "static/brand/svg/glyphs/compass.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/compass.svg",
+      "sha256": "f22c645b8976242f5bf2d358bd7303803954798242afc2d000808b04d859daff"
+    },
+    {
+      "path": "static/brand/svg/glyphs/flag.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/flag.svg",
+      "sha256": "23f6f6d10d1d38845cbaeec0b1a27751d3900122ead75c3ca153070d8b044014"
+    },
+    {
+      "path": "static/brand/svg/glyphs/launch.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/launch.svg",
+      "sha256": "99df3dc18f91f790fdca28377632d9c75f239122bf8aa4edf27327a79d838add"
+    },
+    {
+      "path": "static/brand/svg/glyphs/orbit.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/orbit.svg",
+      "sha256": "f3b070ab2ef8df2879b48d9b688cb227a65a7b5a22e9408c98ecd2fa512d8321"
+    },
+    {
+      "path": "static/brand/svg/glyphs/planet.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/planet.svg",
+      "sha256": "34a22de38a190b87dbffabe7e910e438fdb21e8f2d55cfd1d1fcace664a4c777"
+    },
+    {
+      "path": "static/brand/svg/glyphs/question.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/question.svg",
+      "sha256": "63a5c1ea1f179985c77ecb8012cd9d1b113c54a91a25c88114a8962e79f6b3bd"
+    },
+    {
+      "path": "static/brand/svg/glyphs/spark.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/spark.svg",
+      "sha256": "3e55438471a87fb5810cfa6945fcd3acbd34bc5c26b99a81be7bddbaa81fd353"
+    },
+    {
+      "path": "static/brand/svg/glyphs/star-map.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/star-map.svg",
+      "sha256": "89290b5e9e0422c9d802e6e318548925f4ed98cbd9b4a1736864ca66f9960f29"
+    },
+    {
+      "path": "static/brand/svg/glyphs/telescope.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/telescope.svg",
+      "sha256": "59ad8c08884fbfb528bef4921cd4c799b980b32990e0fe843618fe008d857da2"
+    },
+    {
+      "path": "static/brand/svg/glyphs/trophy.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/glyphs/trophy.svg",
+      "sha256": "c87b3fcc82e4ec5d8b9cad2e2e864ed88cef88552a5ae395930698cd1f51b3e8"
+    },
+    {
+      "path": "static/brand/svg/marks/q-orbit.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/marks/q-orbit.svg",
+      "sha256": "a9b823a1fb3a8d1aa59fb57e18e23eb4d5995fd3f086359389dbd23f62f8e4d2"
+    },
+    {
+      "path": "static/brand/svg/marks/wordmark-ink.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/marks/wordmark-ink.svg",
+      "sha256": "38f684467d62e62c76465c6c3bb9ce75f88b157e4c069da3353f30e74480274f"
+    },
+    {
+      "path": "static/brand/svg/marks/wordmark-primary.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/marks/wordmark-primary.svg",
+      "sha256": "87020fda3464b60dda18d6205b6823c6f82aeb8db3bbbabecca49273325010c5"
+    },
+    {
+      "path": "static/brand/svg/marks/wordmark-reversed.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/marks/wordmark-reversed.svg",
+      "sha256": "0c36d28180e3972ccc629f82a049daa41d1dd9ff98fbd646e2e0741e89b4dfd7"
+    },
+    {
+      "path": "static/brand/svg/mascot/mr-big-avatar-delighted.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/mascot/mr-big-avatar-delighted.svg",
+      "sha256": "bf49bfbcf987c037568c6446896dbd59001019044d7b3c32b0858e5a57ae3e17"
+    },
+    {
+      "path": "static/brand/svg/mascot/mr-big-avatar-surprised.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/mascot/mr-big-avatar-surprised.svg",
+      "sha256": "1778d75a6baf6e99e664158ee6f2b44040d20ef678bca26e1c19f8e12208d51c"
+    },
+    {
+      "path": "static/brand/svg/mascot/mr-big-avatar-thinking.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/mascot/mr-big-avatar-thinking.svg",
+      "sha256": "22746eb4017e6c17aae1cb8b1d0700bc4f96e064656611bae930577775ef3bbb"
+    },
+    {
+      "path": "static/brand/svg/mascot/mr-big-avatar.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/mascot/mr-big-avatar.svg",
+      "sha256": "a93c00b3709683823af561da9efae96ae2a7b79b75ddf0b01b32bdd994fb25dc"
+    },
+    {
+      "path": "static/brand/svg/mascot/mr-big-celebrating.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/mascot/mr-big-celebrating.svg",
+      "sha256": "becbfe3261fbca63a74dadebf3637999aab3528e9f95968db4a67192de3e6ed3"
+    },
+    {
+      "path": "static/brand/svg/mascot/mr-big-pointing.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/mascot/mr-big-pointing.svg",
+      "sha256": "03fe1440f053d4fa6f1eb3fa6f74e4afa6bb6491c6745559e5088084a6f8a50e"
+    },
+    {
+      "path": "static/brand/svg/mascot/mr-big-silhouette.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/mascot/mr-big-silhouette.svg",
+      "sha256": "adff735f7269959a63846356bd280b51424889be6b7ff658fe73d58cf1a01d66"
+    },
+    {
+      "path": "static/brand/svg/mascot/mr-big-welcome.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/mascot/mr-big-welcome.svg",
+      "sha256": "2da66ffa31ccf5d44fa0b36cb76ae9a38103d3927c8ca00d0a373a41608ab415"
+    },
+    {
+      "path": "static/brand/svg/motifs/corner-brackets.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/motifs/corner-brackets.svg",
+      "sha256": "8c60ad3610717f9ddb91eb7a8558158b8a6c13d4dad7f17855ffd3ca2340982d"
+    },
+    {
+      "path": "static/brand/svg/motifs/orbit-trail.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/motifs/orbit-trail.svg",
+      "sha256": "0dc2975c066ba1e9da45a719876805136d3b2d3654c5fb3ed26c060cfd0b28fd"
+    },
+    {
+      "path": "static/brand/svg/motifs/paper-grid.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/motifs/paper-grid.svg",
+      "sha256": "865ae69ab9316840fe86f0f889f6b6c62ee9389dfe43cdc92a5570e8683438ab"
+    },
+    {
+      "path": "static/brand/svg/motifs/starburst.svg",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/svg/motifs/starburst.svg",
+      "sha256": "02ce970ec36578b914d1590238b5097c07e9266a74cfe89aad7159f79f540262"
+    },
+    {
+      "path": "static/brand/png/mascot/mr-big-avatar-delighted.png",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/png/mascot/mr-big-avatar-delighted.png",
+      "sha256": "5dc9c2a1febf88816fa36130dc5f0aec82bf08952d28eacce05d1c8aebf14065"
+    },
+    {
+      "path": "static/brand/png/mascot/mr-big-avatar-surprised.png",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/png/mascot/mr-big-avatar-surprised.png",
+      "sha256": "498be23a3afe6b824f0e88acfd22462bd1c2e23733d0d72e583938f06cc7834b"
+    },
+    {
+      "path": "static/brand/png/mascot/mr-big-avatar-thinking.png",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/png/mascot/mr-big-avatar-thinking.png",
+      "sha256": "6efad2784ca3a743363136800b4085e431e300673d700285ccdcdd4c34dea7b6"
+    },
+    {
+      "path": "static/brand/png/mascot/mr-big-avatar.png",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/png/mascot/mr-big-avatar.png",
+      "sha256": "278b6b2fe650afcf6134525472175e107c72fc9dc28706b1deb853aa041a8cdc"
+    },
+    {
+      "path": "static/brand/png/mascot/mr-big-celebrating.png",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/png/mascot/mr-big-celebrating.png",
+      "sha256": "2979d826a9f5f17857f4e9667b719690e5b3b5e2252f010e8d19e0eb92ef1205"
+    },
+    {
+      "path": "static/brand/png/mascot/mr-big-pointing.png",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/png/mascot/mr-big-pointing.png",
+      "sha256": "67609cb95ab6affb4d0eb43e08199760eca37f3bc1fbabcb3aa7d346fd4e8205"
+    },
+    {
+      "path": "static/brand/png/mascot/mr-big-silhouette.png",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/png/mascot/mr-big-silhouette.png",
+      "sha256": "9b486ad354db5aec6625ee3e2b427ac974064d46eb22cb0bcb693986c2bb2eeb"
+    },
+    {
+      "path": "static/brand/png/mascot/mr-big-welcome.png",
+      "source": "/Users/ryanjohnson/Projects/quiznauts/assets/brand/retro-library/png/mascot/mr-big-welcome.png",
+      "sha256": "3b617afd9744fc205555146485a93ffcd254aac6ebd33d09a84cbdcc197506c5"
+    }
+  ]
+}
