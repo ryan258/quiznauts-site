@@ -1,0 +1,52 @@
+{
+  "id": "first-contact",
+  "title": "First Contact",
+  "intro": "Three questions. Three choices each. Take your time, then stay for the explanation.",
+  "questions": [
+    {
+      "id": "fc-ocean-pacific",
+      "prompt": "Which is Earth's largest ocean basin?",
+      "choices": [
+        {"id": "A", "text": "Atlantic"},
+        {"id": "B", "text": "Pacific"},
+        {"id": "C", "text": "Indian"}
+      ],
+      "answer": "B",
+      "explanation": "The Pacific is Earth's largest ocean basin. It is also the deepest; the Atlantic is the second largest.",
+      "source": {
+        "title": "NOAA: What is the largest ocean basin on Earth?",
+        "url": "https://oceanservice.noaa.gov/facts/biggestocean.html"
+      }
+    },
+    {
+      "id": "fc-venus-rotation",
+      "prompt": "Which planet takes longer to rotate once than to orbit the Sun?",
+      "choices": [
+        {"id": "A", "text": "Earth"},
+        {"id": "B", "text": "Mars"},
+        {"id": "C", "text": "Venus"}
+      ],
+      "answer": "C",
+      "explanation": "Venus rotates once in about 243 Earth days and orbits in about 225. That is a rotation period; its sunrise-to-sunrise cycle is shorter.",
+      "source": {
+        "title": "NASA Space Place: All About Venus",
+        "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+      }
+    },
+    {
+      "id": "fc-octopus-hearts",
+      "prompt": "How many hearts does a red octopus have?",
+      "choices": [
+        {"id": "A", "text": "Three"},
+        {"id": "B", "text": "Two"},
+        {"id": "C", "text": "Four"}
+      ],
+      "answer": "A",
+      "explanation": "A red octopus has three hearts. Two pump blood through the gills, while the other pumps it through the body.",
+      "source": {
+        "title": "Monterey Bay Aquarium: Red octopus",
+        "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/red-octopus"
+      }
+    }
+  ]
+}

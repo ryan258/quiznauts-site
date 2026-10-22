@@ -1,0 +1,344 @@
+{
+  "edition": "1.0",
+  "reviewed": "2026-10-22",
+  "direction": "Atomic Advertising; Mr. Big v1.4",
+  "assets": [
+    {
+      "id": "quiznauts-avatar",
+      "title": "Mr. Big profile avatar",
+      "description": "A round, friendly Mr. Big astronaut helmet on a teal and cream profile medallion.",
+      "width": 1024,
+      "height": 1024,
+      "svg": "/marketing/svg/quiznauts-avatar.svg",
+      "png": "/marketing/png/quiznauts-avatar.png",
+      "platforms": [
+        "YouTube",
+        "Instagram",
+        "TikTok",
+        "Facebook",
+        "Bluesky",
+        "X",
+        "Pinterest"
+      ],
+      "alt": "A round, friendly Mr. Big astronaut helmet on a teal and cream profile medallion.",
+      "usage": "Shared 1024-square production master. Preview the actual circular profile crop before saving; no wordmark or small text.",
+      "kind": "profile",
+      "safeArea": {
+        "x": 64,
+        "y": 64,
+        "width": 896,
+        "height": 896
+      },
+      "webp": "/marketing/webp/quiznauts-avatar.webp"
+    },
+    {
+      "id": "quiznauts-youtube-banner",
+      "title": "YouTube channel banner",
+      "description": "Cream atomic-era banner with the Quiznauts wordmark, a welcoming toy cow astronaut, and the line “Come for the cow. Leave knowing more.”",
+      "width": 2560,
+      "height": 1440,
+      "svg": "/marketing/svg/quiznauts-youtube-banner.svg",
+      "png": "/marketing/png/quiznauts-youtube-banner.png",
+      "platforms": [
+        "YouTube"
+      ],
+      "alt": "Cream atomic-era banner with the Quiznauts wordmark, a welcoming toy cow astronaut, and the line “Come for the cow. Leave knowing more.”",
+      "usage": "2560 × 1440 recommended canvas. Essentials use a centered 1540 × 420 design guide. Review actual phone, desktop and TV crops in Studio.",
+      "kind": "profile",
+      "safeArea": {
+        "x": 510,
+        "y": 510,
+        "width": 1540,
+        "height": 420
+      },
+      "webp": "/marketing/webp/quiznauts-youtube-banner.webp"
+    },
+    {
+      "id": "quiznauts-youtube-thumbnail",
+      "title": "YouTube quiz invitation thumbnail",
+      "description": "Retro invitation thumbnail: “How much do you know?” beside a thoughtful Mr. Big.",
+      "width": 3840,
+      "height": 2160,
+      "svg": "/marketing/svg/quiznauts-youtube-thumbnail.svg",
+      "png": "/marketing/png/quiznauts-youtube-thumbnail.png",
+      "platforms": [
+        "YouTube"
+      ],
+      "alt": "Retro invitation thumbnail: “How much do you know?” beside a thoughtful Mr. Big.",
+      "usage": "3840 × 2160 follows current YouTube recommendation checked October 22, 2026. Adapt title to the actual video; do not imply this template is an uploaded episode.",
+      "kind": "template",
+      "safeArea": {
+        "x": 126,
+        "y": 120,
+        "width": 3588,
+        "height": 1920
+      },
+      "webp": "/marketing/webp/quiznauts-youtube-thumbnail.webp"
+    },
+    {
+      "id": "quiznauts-youtube-end-card",
+      "title": "YouTube end-card background",
+      "description": "Mr. Big cheers beside “One more small discovery?” and an open cream panel for end-screen elements.",
+      "width": 1920,
+      "height": 1080,
+      "svg": "/marketing/svg/quiznauts-youtube-end-card.svg",
+      "png": "/marketing/png/quiznauts-youtube-end-card.png",
+      "platforms": [
+        "YouTube"
+      ],
+      "alt": "Mr. Big cheers beside “One more small discovery?” and an open cream panel for end-screen elements.",
+      "usage": "Design background only. Place real clickable end-screen elements in Studio; the empty panel is a suggested placement, not a guaranteed platform slot.",
+      "kind": "template",
+      "safeArea": {
+        "x": 835,
+        "y": 575,
+        "width": 960,
+        "height": 360
+      },
+      "webp": "/marketing/webp/quiznauts-youtube-end-card.webp"
+    },
+    {
+      "id": "quiznauts-open-graph",
+      "title": "Website and link preview",
+      "description": "Quiznauts link card with a tiny cow astronaut: “Small cow. Big curiosity. Play a quiz. Take a little knowledge home.”",
+      "width": 1200,
+      "height": 630,
+      "svg": "/marketing/svg/quiznauts-open-graph.svg",
+      "png": "/marketing/png/quiznauts-open-graph.png",
+      "platforms": [
+        "Website",
+        "Link previews"
+      ],
+      "alt": "Quiznauts link card with a tiny cow astronaut: “Small cow. Big curiosity. Play a quiz. Take a little knowledge home.”",
+      "usage": "Default Open Graph image production choice. Preview actual link unfurls; crawlers and platforms control their own crop and caching.",
+      "kind": "evergreen",
+      "safeArea": {
+        "x": 55,
+        "y": 55,
+        "width": 1090,
+        "height": 520
+      },
+      "webp": "/marketing/webp/quiznauts-open-graph.webp"
+    },
+    {
+      "id": "quiznauts-brand-square",
+      "title": "Square brand introduction",
+      "description": "Atomic advertising poster: “Come for the cow. Leave knowing more.” with Mr. Big waving.",
+      "width": 1080,
+      "height": 1080,
+      "svg": "/marketing/svg/quiznauts-brand-square.svg",
+      "png": "/marketing/png/quiznauts-brand-square.png",
+      "platforms": [
+        "Instagram",
+        "Facebook",
+        "Community posts"
+      ],
+      "alt": "Atomic advertising poster: “Come for the cow. Leave knowing more.” with Mr. Big waving.",
+      "usage": "Evergreen brand introduction; repeat the wording in the post caption and supply image description.",
+      "kind": "evergreen",
+      "safeArea": {
+        "x": 72,
+        "y": 72,
+        "width": 936,
+        "height": 936
+      },
+      "webp": "/marketing/webp/quiznauts-brand-square.webp"
+    },
+    {
+      "id": "quiznauts-feed-portrait",
+      "title": "Portrait feed invitation",
+      "description": "Mr. Big cheers below “You belong in this orbit. Pick an answer. Meet a new idea.”",
+      "width": 1080,
+      "height": 1350,
+      "svg": "/marketing/svg/quiznauts-feed-portrait.svg",
+      "png": "/marketing/png/quiznauts-feed-portrait.png",
+      "platforms": [
+        "Instagram",
+        "Facebook"
+      ],
+      "alt": "Mr. Big cheers below “You belong in this orbit. Pick an answer. Meet a new idea.”",
+      "usage": "4:5 production export for feed posts. Recheck the current composer crop before publishing.",
+      "kind": "evergreen",
+      "safeArea": {
+        "x": 80,
+        "y": 80,
+        "width": 920,
+        "height": 1190
+      },
+      "webp": "/marketing/webp/quiznauts-feed-portrait.webp"
+    },
+    {
+      "id": "quiznauts-vertical-invitation",
+      "title": "Vertical quiz invitation",
+      "description": "Vertical teal poster with Mr. Big and the words “One question. A new idea. Pick A, B or C. Stay for the explanation.”",
+      "width": 1080,
+      "height": 1920,
+      "svg": "/marketing/svg/quiznauts-vertical-invitation.svg",
+      "png": "/marketing/png/quiznauts-vertical-invitation.png",
+      "platforms": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "Stories"
+      ],
+      "alt": "Vertical teal poster with Mr. Big and the words “One question. A new idea. Pick A, B or C. Stay for the explanation.”",
+      "usage": "9:16 still artwork, not a video or a platform-certified overlay map. Essential content uses x120–900 and y280–1580. Check each app’s live UI and captions.",
+      "kind": "evergreen",
+      "safeArea": {
+        "x": 120,
+        "y": 280,
+        "width": 780,
+        "height": 1300
+      },
+      "webp": "/marketing/webp/quiznauts-vertical-invitation.webp"
+    },
+    {
+      "id": "quiznauts-question-card",
+      "title": "First Contact question card",
+      "description": "Quiznauts asks: Which is Earth's largest ocean basin? A Atlantic, B Pacific, or C Indian. Answer on the next card. Source: NOAA.",
+      "width": 1080,
+      "height": 1080,
+      "svg": "/marketing/svg/quiznauts-question-card.svg",
+      "png": "/marketing/png/quiznauts-question-card.png",
+      "platforms": [
+        "Instagram",
+        "Facebook",
+        "Community posts"
+      ],
+      "alt": "Quiznauts asks: Which is Earth's largest ocean basin? A Atlantic, B Pacific, or C Indian. Answer on the next card. Source: NOAA.",
+      "usage": "Pair with the explanation card. Based on First Contact question fc-ocean-pacific; include the complete source link and both cards in the post.",
+      "kind": "question",
+      "safeArea": {
+        "x": 80,
+        "y": 60,
+        "width": 920,
+        "height": 970
+      },
+      "source": {
+        "title": "NOAA: What is the largest ocean basin on Earth?",
+        "url": "https://oceanservice.noaa.gov/facts/biggestocean.html"
+      },
+      "questionId": "fc-ocean-pacific",
+      "webp": "/marketing/webp/quiznauts-question-card.webp"
+    },
+    {
+      "id": "quiznauts-explanation-card",
+      "title": "First Contact explanation card",
+      "description": "Answer B: Pacific. The Pacific is Earth’s largest ocean basin and the deepest. The Atlantic is second largest. Source: NOAA Ocean Service.",
+      "width": 1080,
+      "height": 1080,
+      "svg": "/marketing/svg/quiznauts-explanation-card.svg",
+      "png": "/marketing/png/quiznauts-explanation-card.png",
+      "platforms": [
+        "Instagram",
+        "Facebook",
+        "Community posts"
+      ],
+      "alt": "Answer B: Pacific. The Pacific is Earth’s largest ocean basin and the deepest. The Atlantic is second largest. Source: NOAA Ocean Service.",
+      "usage": "Pair with the question card. Include source https://oceanservice.noaa.gov/facts/biggestocean.html in the caption; wording is synchronized to the First Contact mission.",
+      "kind": "explanation",
+      "safeArea": {
+        "x": 80,
+        "y": 65,
+        "width": 920,
+        "height": 950
+      },
+      "source": {
+        "title": "NOAA: What is the largest ocean basin on Earth?",
+        "url": "https://oceanservice.noaa.gov/facts/biggestocean.html"
+      },
+      "questionId": "fc-ocean-pacific",
+      "webp": "/marketing/webp/quiznauts-explanation-card.webp"
+    },
+    {
+      "id": "quiznauts-wide-profile-header",
+      "title": "Wide profile header",
+      "description": "A cream wide header with the Quiznauts wordmark, “Small cow. Big curiosity.” and Mr. Big’s helmet.",
+      "width": 1500,
+      "height": 500,
+      "svg": "/marketing/svg/quiznauts-wide-profile-header.svg",
+      "png": "/marketing/png/quiznauts-wide-profile-header.png",
+      "platforms": [
+        "Bluesky",
+        "X"
+      ],
+      "alt": "A cream wide header with the Quiznauts wordmark, “Small cow. Big curiosity.” and Mr. Big’s helmet.",
+      "usage": "3:1 reusable production master. Profile-photo overlap and responsive cropping differ by service; check the composer before saving.",
+      "kind": "profile",
+      "safeArea": {
+        "x": 250,
+        "y": 60,
+        "width": 1050,
+        "height": 345
+      },
+      "webp": "/marketing/webp/quiznauts-wide-profile-header.webp"
+    },
+    {
+      "id": "quiznauts-facebook-cover",
+      "title": "Community cover artwork",
+      "description": "Teal community cover: “A little cow. A big question. Clever quizzes for curious people.”",
+      "width": 1640,
+      "height": 624,
+      "svg": "/marketing/svg/quiznauts-facebook-cover.svg",
+      "png": "/marketing/png/quiznauts-facebook-cover.png",
+      "platforms": [
+        "Facebook"
+      ],
+      "alt": "Teal community cover: “A little cow. A big question. Clever quizzes for curious people.”",
+      "usage": "1640 × 624 production master, not a verified current platform minimum. Check desktop/mobile crop and profile overlap in the composer.",
+      "kind": "profile",
+      "safeArea": {
+        "x": 260,
+        "y": 85,
+        "width": 1120,
+        "height": 430
+      },
+      "webp": "/marketing/webp/quiznauts-facebook-cover.webp"
+    },
+    {
+      "id": "quiznauts-pinterest-poster",
+      "title": "Curiosity poster",
+      "description": "A tall atomic-era poster featuring Mr. Big: “Take your curiosity for a spin. Quizzes worth wondering about.”",
+      "width": 1000,
+      "height": 1500,
+      "svg": "/marketing/svg/quiznauts-pinterest-poster.svg",
+      "png": "/marketing/png/quiznauts-pinterest-poster.png",
+      "platforms": [
+        "Pinterest"
+      ],
+      "alt": "A tall atomic-era poster featuring Mr. Big: “Take your curiosity for a spin. Quizzes worth wondering about.”",
+      "usage": "2:3 production export. Link only to a published matching destination; add the readable copy and image description in the composer.",
+      "kind": "evergreen",
+      "safeArea": {
+        "x": 80,
+        "y": 80,
+        "width": 840,
+        "height": 1340
+      },
+      "webp": "/marketing/webp/quiznauts-pinterest-poster.webp"
+    },
+    {
+      "id": "quiznauts-video-watermark",
+      "title": "Video corner watermark",
+      "description": "Transparent Quiznauts Q-orbit corner mark.",
+      "width": 300,
+      "height": 300,
+      "svg": "/marketing/svg/quiznauts-video-watermark.svg",
+      "png": "/marketing/png/quiznauts-video-watermark.png",
+      "platforms": [
+        "YouTube",
+        "Video"
+      ],
+      "alt": "Transparent Quiznauts Q-orbit corner mark.",
+      "usage": "300-square production choice. YouTube requires at least150 ×150 and under1MB; availability depends on video audience designation. Check legibility over footage.",
+      "kind": "video",
+      "safeArea": {
+        "x": 10,
+        "y": 10,
+        "width": 280,
+        "height": 280
+      },
+      "webp": "/marketing/webp/quiznauts-video-watermark.webp"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "platforms": [
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "role": "Full missions and quick quizzes",
+      "url": "",
+      "handle": ""
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "role": "Question cards and small discoveries",
+      "url": "",
+      "handle": ""
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "role": "Quick quiz missions",
+      "url": "",
+      "handle": ""
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "role": "Missions to share with curious friends",
+      "url": "",
+      "handle": ""
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky",
+      "role": "Questions and conversation",
+      "url": "",
+      "handle": ""
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "role": "Visual discoveries and quiz cards",
+      "url": "",
+      "handle": ""
+    }
+  ]
+}
