@@ -1,14 +1,12 @@
 # Local operation and eventual launch
 
-The site is currently a local Hugo project. Domain, registrar, hosting, channel ownership, social handles and a public contact address are unresolved. No Cloudflare project, database, form, email sender or provider binding is configured. The static site does not need those services to run.
+The site is authored locally with Hugo. A GitHub Pages deployment pipeline is configured via `.github/workflows/deploy.yml` to build with Hugo extended 0.166.0, run contract tests, package kits, and publish the site using the configured GitHub Pages origin (`https://ryan258.github.io/quiznauts-site/` or custom domain). No Cloudflare project, database, form, email sender or provider binding is configured. The static site does not need those services to run.
 
 Run `./qn` for a loopback preview and stop it with Control-C. `./qn build` creates `public/`; `./qn check` builds and checks generated pages, local links, source attribution and downloadable assets. `./qn kit` rebuilds the two download ZIPs. No helper publishes, pushes, sends messages or changes accounts.
 
 To connect an existing account, enter its verified URL and handle in `data/properties.json`. Empty destinations are hidden from public navigation. Handle candidates in the marketing kit are proposals only. Keep confirmed ownership separate from availability assumptions.
 
-The preview config is `baseURL = "http://localhost:1313/"` and `params.indexable = false`. Before a public release, choose the real origin, replace the base URL, review all external destinations and content, run local checks and the documented browser checks, then deliberately set `indexable = true`. `./qn readiness` reports the remaining local configuration decisions; it does not grant publication approval.
-
-Canonical/social metadata is conditional on a real public base URL and indexing being enabled. The preview emits noindex and a disallow-all robots policy. Set the correct base path before a subdirectory deployment; template asset and route links use Hugo URL helpers.
+The preview config is `baseURL = "http://localhost:1313/"` and `params.indexable = false`. When deploying through GitHub Pages, the workflow configures the public base URL dynamically via `actions/configure-pages`. Canonical/social metadata is conditional on a real public base URL and indexing being enabled. Template asset and route links use Hugo URL helpers (`relURL`, `RelPermalink`) which automatically adapt to root or subdirectory paths.
 
 Hugo was built locally with version 0.166.0 extended on macOS. Shared authoring variables live in `assets/scss/_tokens.scss`, with styles in `assets/scss/site.scss`; `layouts/partials/head.html` compiles them through `css.Sass`. The initial site uses core Hugo templates and resource processing, without a downloaded theme or package installation. A different Hugo version should be checked with `./qn check` before relying on its output.
 

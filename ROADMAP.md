@@ -17,6 +17,7 @@ Local, single-user authoring site for the Quiznauts channel and brand marketing 
 | **Marketing exports** | `static/marketing/`: 14 platform exports (YouTube banner, thumbnail, open graph, Pinterest, avatar, etc.) across SVG, PNG, and lossless WebP; deterministic brand and social download kits. |
 | **Local CLI (`qn`)** | `./qn` helper commands: `serve`, `build`, `check`, `browser`, `kit`, `images`, `art`, `backup`, `status`, `readiness`. |
 | **Content contracts** | Verified mapping in `data/missions.json`, public host rules in `data/url_policy.json`, and source checks in `scripts/`. |
+| **Hosting & CI/CD** | GitHub Pages deployment workflow (`.github/workflows/deploy.yml`) with automated Hugo extended build, contract checks, deterministic kit packaging, dynamic base URL configuration, and `.nojekyll` protection. |
 
 ---
 
@@ -33,7 +34,8 @@ Local, single-user authoring site for the Quiznauts channel and brand marketing 
 
 ## Next Actions & Proposed
 
+- **GitHub Pages activation**: In GitHub repository settings (Settings → Pages), set Source to **GitHub Actions**. Pushing `main` or triggering `workflow_dispatch` will deploy automatically.
 - **Browser review rerun**: Execute `./qn browser` using Playwright in the sibling environment to verify layout across 24 test cases.
 - **External destinations**: Populate verified channel and social URLs in `data/properties.json` when established; empty values remain safely hidden from public links.
 - **Dart Sass migration**: Migrate Sass pipeline before Hugo removes deprecated LibSass in future releases.
-- **Public deployment**: Select public host and configure domain when Ryan authorizes publication.
+- **Custom domain (optional)**: Add CNAME or custom domain in GitHub Pages settings if moving away from default `ryan258.github.io/quiznauts-site/`.

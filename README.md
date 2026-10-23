@@ -66,7 +66,16 @@ Read `docs/handoff.md` for the saved state and the next concrete actions. `docs/
 
 The October 22 full project review and issue-resolution table are in `docs/project-review.md`. `docs/status.json` owns the current return state; `docs/verification/latest-local.json` records the latest `./qn check` with a source fingerprint. Earlier evidence files remain historical receipts.
 
-The short command is the recovery path: `./qn status`, then `./qn` to continue. No staging, commit, remote repository, account setup or deployment has been performed.
+The short command is the recovery path: `./qn status`, then `./qn` to continue.
+
+## GitHub Pages hosting
+
+The repository includes a GitHub Actions workflow in `.github/workflows/deploy.yml` configured to build and deploy to GitHub Pages on pushes to `main` (or via manual `workflow_dispatch`).
+
+To activate on GitHub:
+1. In the repository on GitHub, go to **Settings → Pages**.
+2. Under **Build and deployment → Source**, select **GitHub Actions**.
+3. When `main` is pushed, the workflow runs contract tests, packages download kits, builds with Hugo extended 0.166.0 using the detected GitHub Pages base URL (`https://ryan258.github.io/quiznauts-site/` or custom domain), and publishes the artifact with `.nojekyll` protection.
 
 ## Content contracts and recovery
 
